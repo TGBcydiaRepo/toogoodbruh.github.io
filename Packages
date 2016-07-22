@@ -4,11 +4,12 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.loltheme_0.0.1_iphoneos-arm.deb
 Size: 4585370
-MD5sum: f2c513b39b93472e204213d6efebf1ab
-SHA1: 35ebf2bdd0f2c53cbec6b0579e9c2020f34e4d1e
-SHA256: 1a63688ee5838aebce91b9f9ca47514d935e36f40efe8ae92ae3b3b4e80cb0c8
+MD5sum: ebb8de66da5f55aa5b8ee89d5a6c322a
+SHA1: 3bf1bd93ef51a0dc74b91eb3d05139decaa550cc
+SHA256: 7ce8ff262dce0b73a4cbc193c40a4b06e2334a82d5eaaf18fd19505ba0ae3224
 Section: Themes (SpringBoard)
 Homepage: http://repo.toogoodbruh.com
 Description: Lol Theme Just a joke In Beta
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Name: LoL Theme
+
