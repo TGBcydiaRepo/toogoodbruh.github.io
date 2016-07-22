@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Package: com.toogoodbruh.TestTheme
 Version: 1.0
 Architecture: iphoneos-arm
@@ -13,3 +14,5 @@ Description: Lol Theme Just a joke (In Beta) Many updates to come! WinterBoard a
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Name: LoL Theme
 
+=======
+>>>>>>> origin/master
