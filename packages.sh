@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb -bZgzip projects/LoL Theme debs
+dpkg-deb -bZgzip projects/TestTheme debs
