@@ -1,7 +1,7 @@
 Origin: TooGoodBruh Repo
 Label: TooGoodBruh Repo
 Suite: stable
-Version: 1.0
+Version: 1.0.0.1
 Codename: ios
 Architectures: iphoneos-arm
 Components: main

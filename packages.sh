@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg-deb -bZgzip projects/testTheme debs
+dpkg-deb -bZgzip projects/TestTheme debs
