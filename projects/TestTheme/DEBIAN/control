@@ -1,8 +1,9 @@
 Package: com.toogoodbruh.TestTheme
 Name: LoL Theme
-Version: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
+Version: 0.0.1
 Architecture: iphoneos-arm
 Description: Lol Theme Just a joke (In Beta) Many updates to come!
+WinterBoard and IconBundles are required to run this theme.
 Homepage: http://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
