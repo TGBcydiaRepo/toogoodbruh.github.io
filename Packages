@@ -1,0 +1,15 @@
+Package: com.toogoodbruh.TestTheme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Filename: ./debs/com.toogoodbruh.testtheme_1.0_iphoneos-arm.deb
+Size: 4585428
+MD5sum: 6ca0100a30fac43f203c0e4e3e29f3a8
+SHA1: 69c1a090e40a6dbe807f9a1a0db567c2ee6b27dc
+SHA256: 6b1475514e0a58250be7607e9678df0fd1a73e3c290813653a3b1a44e887376d
+Section: Themes (SpringBoard)
+Homepage: http://repo.toogoodbruh.com
+Description: Lol Theme Just a joke (In Beta) Many updates to come! WinterBoard and IconBundles are required to run this theme.
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Name: LoL Theme
+
