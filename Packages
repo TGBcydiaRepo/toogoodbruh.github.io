@@ -1,0 +1,14 @@
+Package: com.toogoodbruh.tgbrepo
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Filename: ./debs/com.toogoodbruh.tgbrepo_0.1_iphoneos-arm.deb
+Size: 4585748
+MD5sum: 9b32b259db5a6d56cb89683f152141b3
+SHA1: e3d65b59c888ef54763831f0f5dc00e0862a3d7f
+SHA256: 1dc1ea233f135190a0d4231b3fb5605cfcfeb2b9ad78773ca017e235b61d54fb
+Section: Themes (SpringBoard)
+Description: Lol Theme (Beta) Just a joke
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Name: LoL Theme
+
