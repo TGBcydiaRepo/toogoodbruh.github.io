@@ -1,12 +1,27 @@
+Package: com.toogoodbruh.CydiaLogoTheme
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0_iphoneos-arm.deb
+Size: 27344
+MD5sum: 53a6bc34a9bd233ebef3c15f19f71a63
+SHA1: c074e4584727b9fb31640022c5201e6aa21d96c2
+SHA256: a1c8b9165477d9e2a369482455480ab39abe223dd4505457e64026e3e1e9d6f7
+Section: Themes (SpringBoard)
+Homepage: http://repo.toogoodbruh.com
+Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Name: Cydia Icon Theme Beta
+
 Package: com.toogoodbruh.TestTheme
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0_iphoneos-arm.deb
-Size: 4585410
-MD5sum: 7b82e6d45077f7b167b14391ceba7fd8
-SHA1: 3ae3976b9ec8a4182439035f53cc087f16ffa308
-SHA256: e7c852f1f27b3ab5833889c26472701c1060825f2a72737342fb4b026479f9af
+Size: 4585424
+MD5sum: 850e8ecf45fa874fc350ce7241d416c7
+SHA1: 9b0dd529d84412b5a3ee52020080f1b553b235e7
+SHA256: 121160b47dd4681b853967d2558269df1e96b1900a8b3876bc61be0fc1a84ef5
 Section: Themes (SpringBoard)
 Homepage: http://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
