@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27360
-MD5sum: 119b18c83e74d34800da5159e5ce914d
-SHA1: 780bf285f235c0ec87fbefda87b8e6670fd45e88
-SHA256: 9fa034e47bd8f3254d18ba09365dfe6fe1a419ebd499e5283bde2a287874176f
+MD5sum: 88e2f8c4c1cf875408f4a09743ddf4e8
+SHA1: 9bc75084d18e641560816f4723889ed324457472
+SHA256: d21df9bfa61abbfc5b764a67fc436166815e54528e6a87f171cf69ed9e1a7aa2
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -15,14 +15,14 @@ Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.cydialogot
 Name: Cydia Icon Theme Beta
 
 Package: com.toogoodbruh.simplified
-Version: 1.0.0-b
+Version: 1.0.0-c
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
-Filename: ./debs/com.toogoodbruh.simplified_1.0.0-b_iphoneos-arm.deb
-Size: 686152
-MD5sum: 841363996f15b176f252eaa92fd76660
-SHA1: 2fe99d4dfeeb5f1cf501d1cd24cacfb00a5af87b
-SHA256: 795b58d145eedb492193fa57dd98b5b40adaaae87980b16b687c278828dbd14e
+Filename: ./debs/com.toogoodbruh.simplified_1.0.0-c_iphoneos-arm.deb
+Size: 1051434
+MD5sum: 729df7353c2e50ca69c9a76ae4076f46
+SHA1: 13ccdc1e82df7734f4ba104f14497b546b206df4
+SHA256: f27ca4355ee7f067b546dcd37319ed1c2add115ccf694f31d02a9eaaed88f9c5
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -35,10 +35,10 @@ Version: 1.0.0-a
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
-Size: 8074434
-MD5sum: ccf2359af4720b67e5b0114f5db08675
-SHA1: 1fa8a6b761ff090626f7fd41c2c1254c46b58d05
-SHA256: 64dd14e20484faa0e915f835bd70f76b8b17bc4b40826e05d923de61db00c45a
+Size: 8074424
+MD5sum: 2a4718c8e66119ab9f23e35d602cd2dc
+SHA1: 2caf23b0c5e6f213ab55bf9a3aa7837f936def7a
+SHA256: 0eeebffc16372241414e07dabd61d8d96aed7b12dd8495f852156c7e2dac8ffc
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
