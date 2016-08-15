@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27360
-MD5sum: cedc322a66e69faf2bb4344c630dc1aa
-SHA1: cb277d9d1fd200607252cb7e648020b472cd38a9
-SHA256: d1e59ab6d30c824768df83c29f9ae3c07deb80f46ecc31bc9a11ec489e48c74f
+MD5sum: f3bf9f3ad1e29a818f71a1b38200027b
+SHA1: 8a2e1f5e81dcc82a8ec4466e7da1b7a25efefaa9
+SHA256: 3d1e819380be1b2c24eb50b89a561758639817ff985216f926eaec9d0ed9508a
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-d_iphoneos-arm.deb
 Size: 1051430
-MD5sum: c66947204e14de3eadb8d8ba0acbe075
-SHA1: 4d1255c42ef2dc5727691374f5e952d3697146b8
-SHA256: 18bba4c766592d3c8a28695f1e4c71d694d88bcffb663514480b24a0f88309de
+MD5sum: 3e72d771803e345cc41dca3d9318bd65
+SHA1: 10ac22419470f9c8e38f38451ab57b6dee72bef6
+SHA256: d7820c662c609e767bb9059b730cee93fb61138e924f969f28e4182c17d32955
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -36,9 +36,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8074424
-MD5sum: 7c460e4c463ffe99a9ae27ea5e7a7c13
-SHA1: c2855d5a15e5330be4318d4360a2d64695f2da22
-SHA256: 76c27d12693bb7a1ce608b900b924c02ea801e6932028ebfa4df1905ab03796e
+MD5sum: 933790ced951ce9522f9807e8de4605d
+SHA1: 85b12a076ca0ed05003bc797f40377561277de29
+SHA256: ec9e2434256c20ebb38eb59943bbd6d43abe2c74e61a1393a545447e57a510d6
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
