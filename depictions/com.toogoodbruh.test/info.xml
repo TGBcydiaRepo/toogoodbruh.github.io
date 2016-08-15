@@ -9,6 +9,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+		<package>winterboard</package>
 	</dependencies>
 	<descriptionlist>
 		<description>LoL Theme</description>
