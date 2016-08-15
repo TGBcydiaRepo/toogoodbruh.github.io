@@ -1,0 +1,45 @@
+<package>
+	<id>com.toogoodbruh.testtheme</id>
+	<name>LoL Theme Beta</name>
+	<version>1.0.0-b</version>
+	<compatibility>
+		<firmware>
+			<miniOS>4.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>WinterBoard</package>
+		<package>IconBundles</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Theme</description>
+		<description>Random</description>
+		<description><![CDATA[
+		Welcome!<br/>
+		Please download me!
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Other theme</description>
+			<image>homescreen.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>Other theme</description>
+			<image>clock.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>More Info</change>
+		<change>nothing</change>
+		<change>nothing</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+	</links>
+</package>
