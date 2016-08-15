@@ -1,6 +1,6 @@
 <package>
-	<id>com.toogoodbruh.testtheme</id>
-	<name>LoL Theme Beta</name>
+	<id>com.toogoodbruh.cydialogotheme</id>
+	<name>Cydia Icon Theme</name>
 	<version>1.0.0-b</version>
 	<compatibility>
 		<firmware>
@@ -24,11 +24,11 @@
 	<screenshots>
 		<screenshot>
 			<description>Other theme</description>
-			<image>homescreen.jpg</image>
+			<image>.jpg</image>
 		</screenshot>
 		<screenshot>
 			<description>Other theme</description>
-			<image>clock.jpg</image>
+			<image>.jpg</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
