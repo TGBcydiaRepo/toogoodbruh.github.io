@@ -1,0 +1,46 @@
+<package>
+	<id>com.toogoodbruh.simplified</id>
+	<name>Simplified</name>
+	<version>1.0.0-a</version>
+	<compatibility>
+		<firmware>
+			<miniOS>4.0</miniOS>
+			<maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>WinterBoard</package>
+		<package>IconBundles</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Familiar look, yet redesigned</description>
+		<description>A theme that will make your iOS device look great!</description>
+		<description><![CDATA[
+		Welcome!<br/>
+		Please download me!
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description> </description>
+			<image>.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description> </description>
+			<image>.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>More Info</change>
+		<change>Some Icons are changed slightly.</change>
+		<change>While some are completely new!</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+	</links>
+</package>

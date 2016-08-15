@@ -1,0 +1,10 @@
+Package: com.toogoodbruh.simplified
+Name: Simplified
+Version: 1.0.0-a
+Architecture: iphoneos-arm
+Description: Simple look for iOS devices
+Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.simplified
+Homepage: https://repo.toogoodbruh.com
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Section: Themes (SpringBoard)
