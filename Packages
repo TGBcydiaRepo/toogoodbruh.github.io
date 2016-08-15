@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27360
-MD5sum: 88e2f8c4c1cf875408f4a09743ddf4e8
-SHA1: 9bc75084d18e641560816f4723889ed324457472
-SHA256: d21df9bfa61abbfc5b764a67fc436166815e54528e6a87f171cf69ed9e1a7aa2
+MD5sum: 7b0ac5c1f4c0736dc057029248bc3968
+SHA1: ce87a8543c62ad7c4d480021339c1b1c9147f446
+SHA256: 1b871977e2cf64770398c21f2bcbc87c0716d2745cb93a656dfc7895bd47febc
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -19,10 +19,10 @@ Version: 1.0.0-c
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-c_iphoneos-arm.deb
-Size: 1051434
-MD5sum: 729df7353c2e50ca69c9a76ae4076f46
-SHA1: 13ccdc1e82df7734f4ba104f14497b546b206df4
-SHA256: f27ca4355ee7f067b546dcd37319ed1c2add115ccf694f31d02a9eaaed88f9c5
+Size: 1051430
+MD5sum: be58c9a86cc8b0f6274a5c27189320ff
+SHA1: 4dd87e3a808128610308362d7efa287421831ebc
+SHA256: c5e4604dd594cc12b7788c74366e3def72091d3410a2260c55742f09559eb534
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -36,9 +36,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8074424
-MD5sum: 2a4718c8e66119ab9f23e35d602cd2dc
-SHA1: 2caf23b0c5e6f213ab55bf9a3aa7837f936def7a
-SHA256: 0eeebffc16372241414e07dabd61d8d96aed7b12dd8495f852156c7e2dac8ffc
+MD5sum: bb5dc42d8b7c52b8a647b44c8bdfae8b
+SHA1: d22c586b9260eb1245f3a728a52ba556766d3d6d
+SHA256: c8449aac55c6bad416b0f6433a614fa870c45a1cd29afb69cdce7ddfe78cb5fa
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
