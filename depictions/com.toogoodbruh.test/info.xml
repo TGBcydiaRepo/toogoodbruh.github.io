@@ -1,6 +1,6 @@
 <package>
 	<id>com.toogoodbruh.testtheme</id>
-	<name>Full Package</name>
+	<name>LoL Theme Beta</name>
 	<version>1.0.12</version>
 	<compatibility>
 		<firmware>
@@ -11,8 +11,8 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
+		<description>LoL Theme</description>
+		<description>Just a joke!</description>
 		<description><![CDATA[
 		You can also have<br/>
 		a multi-line item.
@@ -21,18 +21,18 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
+			<description>Homescreen</description>
+			<image>homescreen.jpg</image>
 		</screenshot>
 		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
+			<description>It has a cool clock icon</description>
+			<image>homescreen.jpg.jpg</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
 		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<change>It has the same icon</change>
+		<change>Perfect for trolling!</change>
 	</changelog>
 	<links>
 		<link>

@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/javaswiftdev</url>
+			<iconclass>glyphicon glyphicon-user</iconclass>
+		</link>
+		<link>
+			<name>Repo Link</name>
+			<url>https://repo.toogoodbruh.com</url>
+			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>
