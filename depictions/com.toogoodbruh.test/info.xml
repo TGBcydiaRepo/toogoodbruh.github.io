@@ -1,7 +1,7 @@
 <package>
 	<id>com.toogoodbruh.testtheme</id>
 	<name>LoL Theme Beta</name>
-	<version>1.0.12</version>
+	<version>1.0.14</version>
 	<compatibility>
 		<firmware>
 			<miniOS>4.0</miniOS>
@@ -14,8 +14,8 @@
 		<description>LoL Theme</description>
 		<description>Just a joke!</description>
 		<description><![CDATA[
-		You can also have<br/>
-		a multi-line item.
+		Welcome!<br/>
+		Please download me!
 		]]>
 		</description>
 	</descriptionlist>
@@ -26,11 +26,11 @@
 		</screenshot>
 		<screenshot>
 			<description>It has a cool clock icon</description>
-			<image>homescreen.jpg.jpg</image>
+			<image>clock.jpg</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Second release</change>
+		<change>More Info</change>
 		<change>It has the same icon</change>
 		<change>Perfect for trolling!</change>
 	</changelog>
