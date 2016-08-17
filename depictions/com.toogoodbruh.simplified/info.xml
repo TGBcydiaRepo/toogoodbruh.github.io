@@ -1,7 +1,7 @@
 <package>
 	<id>com.toogoodbruh.simplified</id>
 	<name>Simplified</name>
-	<version>1.0.0-g</version>
+	<version>1.0.0-i</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
