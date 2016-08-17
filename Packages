@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27356
-MD5sum: 46fc728c99c86d811d545bedd994cfa1
-SHA1: 114809ee5a4d25c0f726ae2e34a8ed5d5e9bca4e
-SHA256: e543daec06e511a3eb4af13cf6a0e8a15359798b2ca047cd5461561950f93643
+MD5sum: db9fb94bdc8bf9591025c989fdb17b3c
+SHA1: 10f8c2f7d83de317102240b4b1ae33c1af4467ab
+SHA256: 5dfedff4a0a8be78ef349513ec8649af1cd6b726a82ac6b7af6054bab632592f
 Section: Themes (Test)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-g_iphoneos-arm.deb
 Size: 2303832
-MD5sum: 3d49a5188e6ab07c5c2b48e350731070
-SHA1: 5316303238c6590b9ce393748a74ada02b035e63
-SHA256: 4719361161b2c222c7319915ad5adc00a6c06c34f517d8c52bb6b572d49af738
+MD5sum: 89dac0d195fa426bfa91543f9a83bfbf
+SHA1: e9fa9f6f0e9e730b08fa4ca014c13ab3ffab6fe1
+SHA256: dcbbbdf71353147b8945a27d4b10698a7669b28d3161d40d4fed5ce50b1154dc
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -35,11 +35,11 @@ Version: 1.0.0-a
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
-Size: 8074438
-MD5sum: 2a8f2f2428479a3ee322b7704ada3e74
-SHA1: c8f1b994efd9798f00f0cd904b20072ef50e70dd
-SHA256: 027561b539c096d6a419ba3efae65e062f465e1f3c820ceb4df619918e288a9a
-Section: Themes (SpringBoard)
+Size: 8074432
+MD5sum: 75ba448e66e9e3816c3f140362931b2b
+SHA1: 672f9e37fb992afb0209eb601e7643cd251588c6
+SHA256: 8790adcb0bd3d6d30b18341125c41c32e4d5c0283e015f6257b4d38a6293b387
+Section: Themes (Test)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
