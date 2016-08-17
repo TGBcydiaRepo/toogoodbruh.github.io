@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0.0-f</version>
+		<change>Respring Logo added, not tested yet.</change>
+	</changes>
+	<changes>
 		<version>1.0.0-e</version>
 		<change>Camera, Facetime and Photos icons were enlarged by 25%</change>
 	</changes>
