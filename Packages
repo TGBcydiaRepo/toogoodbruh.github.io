@@ -3,11 +3,11 @@ Version: 1.0.0-b
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
-Size: 27356
-MD5sum: f1daf7dc0bcc2be7c0d9909a36830133
-SHA1: b750725c0c4b7774d849dc1f93d3f1beaff0f916
-SHA256: fff6e288c7d7f775b5144e6da53ecbf3245b1a7c6d507321732d2ee0234c7703
-Section: Themes (Test)
+Size: 27362
+MD5sum: 2dcc152439a4fabbe4cdba5c0e804c39
+SHA1: 2b48ee7caeebf460b6b34950cee51d8789d250ed
+SHA256: 155df75521a02b00743e132673525a2ce8ae20d7314f4dc4cfc90d78f2712f8f
+Section: Themes (Springboard)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-g_iphoneos-arm.deb
 Size: 2303836
-MD5sum: 04a5f6efb70704d6a97c7a8309f77f16
-SHA1: 2927669c50baae0fb1e780e92580b853b11c438a
-SHA256: f3b3975c7b0dfbdc744e788982d3227a4bf676bd32aae28aa8f6553d046c85c3
+MD5sum: 603fe9bcb8fc5cabea2599505334842b
+SHA1: fb35ec82a9df73cc48461ad484d1bf3382c805d0
+SHA256: 7ff9ba3b448cffff438f8ee44e953897526e8c46d09c102a35619870942b583a
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -35,11 +35,11 @@ Version: 1.0.0-a
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
-Size: 8074434
-MD5sum: aadb1081b201acac09f5f255122a5325
-SHA1: 35498433f16e42c6d6b23c47f8a5a31e49a870c6
-SHA256: 98eee0961b4bf18e228324ec78b53f530c621ed370b05be9eb992c79837b6e19
-Section: Themes (Test)
+Size: 8074438
+MD5sum: 301c1e4d2c8efee147d9f6aec3279706
+SHA1: f6f1858f7610cf6fd89f568b9dc8fcc9e8255b89
+SHA256: 899303e0506b0f54af4ade8265aae9664a6139341dd00fbdec56605f861dc9dc
+Section: Themes (Springboard)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
