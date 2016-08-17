@@ -3,11 +3,11 @@ Version: 1.0.0-b
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
-Size: 27360
-MD5sum: ae539032961495313d17c2e232eaa2b2
-SHA1: 718ad26576ee869f0946b724b7418dfeb31de55a
-SHA256: e7ec6c59e3d4a2cc5053ff1d3dc90a54bda175d4063913692d456f2a4a68326f
-Section: Themes (SpringBoard)
+Size: 27356
+MD5sum: 46fc728c99c86d811d545bedd994cfa1
+SHA1: 114809ee5a4d25c0f726ae2e34a8ed5d5e9bca4e
+SHA256: e543daec06e511a3eb4af13cf6a0e8a15359798b2ca047cd5461561950f93643
+Section: Themes (Test)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-g_iphoneos-arm.deb
 Size: 2303832
-MD5sum: 28f3b093bca5a43731e7f1d59fdb18cb
-SHA1: 2853a672c7ebb71b5c1205e262cbab2fbdb5ec44
-SHA256: 93c64c29a2e3a0aafe491c25f49bfdb8a45439191ef456a87351326ae2462901
+MD5sum: 3d49a5188e6ab07c5c2b48e350731070
+SHA1: 5316303238c6590b9ce393748a74ada02b035e63
+SHA256: 4719361161b2c222c7319915ad5adc00a6c06c34f517d8c52bb6b572d49af738
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -36,9 +36,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8074438
-MD5sum: 480a96fc708d361e6dae82ee9f153336
-SHA1: cca386a22ee3201a72a68889367bb2082fe078d9
-SHA256: 60c69c8878dfd39cdf4a8dbcd86ae84037a91736ee7bd6869bc99dfb28b382a0
+MD5sum: 2a8f2f2428479a3ee322b7704ada3e74
+SHA1: c8f1b994efd9798f00f0cd904b20072ef50e70dd
+SHA256: 027561b539c096d6a419ba3efae65e062f465e1f3c820ceb4df619918e288a9a
 Section: Themes (SpringBoard)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
