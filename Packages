@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27356
-MD5sum: db9fb94bdc8bf9591025c989fdb17b3c
-SHA1: 10f8c2f7d83de317102240b4b1ae33c1af4467ab
-SHA256: 5dfedff4a0a8be78ef349513ec8649af1cd6b726a82ac6b7af6054bab632592f
+MD5sum: 947d1f553837e105a454e6da5915310c
+SHA1: 7741cf2950143adac09c2780694d9469ebdd021f
+SHA256: 1de5cfd3a57d156b259182dab004065f18e861a19b0350f2a57581f70be8efe2
 Section: Themes (Test)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -19,10 +19,10 @@ Version: 1.0.0-g
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-g_iphoneos-arm.deb
-Size: 2303832
-MD5sum: 89dac0d195fa426bfa91543f9a83bfbf
-SHA1: e9fa9f6f0e9e730b08fa4ca014c13ab3ffab6fe1
-SHA256: dcbbbdf71353147b8945a27d4b10698a7669b28d3161d40d4fed5ce50b1154dc
+Size: 2303836
+MD5sum: daf21258f8440416cea05d3d1ff6559d
+SHA1: 00b8105aba1343b9f7f074b53ac1e403673d54bb
+SHA256: e01c754bab664d98b269c05cbd8a6549b3623ad1d90fec7cbcb2dbbb8eb48f9c
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -35,10 +35,10 @@ Version: 1.0.0-a
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
-Size: 8074432
-MD5sum: 75ba448e66e9e3816c3f140362931b2b
-SHA1: 672f9e37fb992afb0209eb601e7643cd251588c6
-SHA256: 8790adcb0bd3d6d30b18341125c41c32e4d5c0283e015f6257b4d38a6293b387
+Size: 8074434
+MD5sum: e0796191419d082c38836d987b2dfb50
+SHA1: f8c0850f7a7bf0534ba9331379f8100206c332d3
+SHA256: 89851fd249bcead65ffdf1ab1aa40ce90597805451076763517e61aa1d872428
 Section: Themes (Test)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
