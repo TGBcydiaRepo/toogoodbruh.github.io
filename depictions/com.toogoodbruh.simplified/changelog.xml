@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0.0-g</version>
+		<change>Respring Logo fix being worked on.</change>
+	</changes>
+	<changes>
 		<version>1.0.0-f</version>
 		<change>Respring Logo added, not tested yet.</change>
 	</changes>
