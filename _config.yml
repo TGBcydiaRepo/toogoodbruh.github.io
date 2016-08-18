@@ -1,0 +1,6 @@
+url: https://www.toogoodbruh.com   # with the https protocol
+enforce_ssl: www.toogoodbruh.com   # without any protocol
+
+# For example, my configuration is this:
+url: https://toogoodbruh.com
+enforce_ssl: toogoodbruh.com
