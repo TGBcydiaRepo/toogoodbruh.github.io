@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27366
-MD5sum: e3d736e89241dd616e6c463a1d3f6bee
-SHA1: a2fd307576aec28348226ac611e05e082cf24bdf
-SHA256: 341961a4d96fd8fd7a0249b604a9140a91a2979624b522d9a284cac328c6a867
+MD5sum: cbf3aa0032f9134d52c354743d924423
+SHA1: b982a57a58cd044db347d1c492e59ff597a1f70d
+SHA256: d36e06bb15a1a26c739ed973c74daf00c5ffec44d8711553a2b105df7c90a0c7
 Section: Themes (Springboard)
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-k_iphoneos-arm.deb
 Size: 5772360
-MD5sum: 95ad58b648c812aae689531971648d24
-SHA1: 806e27dc9faac3df72ba03b0f02b31a6f7595016
-SHA256: 412681f91e6675ec155324f8dd3f4f77f785c13949b6497825971c1d92866c46
+MD5sum: e056735517825c0828982f8fe4ab3657
+SHA1: fa4d58d8021060171f4d69e960c7fb23276dabb2
+SHA256: b1f6d3b592f3bd7ff52f329356afc4fd837de72b8792e14edec6dc6ea192e35b
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -36,9 +36,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
 Size: 992610
-MD5sum: a5f16cf4eb772f8be92737aaaecba352
-SHA1: 1e28ebf02ccdcf851014fef0bdfd187f29316b25
-SHA256: 339ef727a1de06c086642cdf06e7fcad072fc125f60a6bc40b4fd60c2789f0e2
+MD5sum: 1c2b156776881c5ccaf041d305608979
+SHA1: 849b7724ddbec4dfe965ac67c14e25553be41f19
+SHA256: 6e8377abdd8283c58e478ac8f1ac8c1b8336d06ecf8a43eb9dec887473969982
 Section: Addons (BootLogos)
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -52,9 +52,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8074438
-MD5sum: 537840d150935710adb7435affa9a6fa
-SHA1: d367979c4e15f1d4afbb72c0481ddc54fd20c1e3
-SHA256: 6eca5addd236523019b694f4d185eba2c489341ab4a57d3fd979a558f7fe8bef
+MD5sum: 08d42ad5f53a9b9f71ac13a99ee7f0d3
+SHA1: a44685a29f0b94fbf44ea0dc09c64527c7150d74
+SHA256: 04fae5d99a6d7561e67b70750b8010a1884464ba9877c16c213735878933bf73
 Section: Themes (Springboard)
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.

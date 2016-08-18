@@ -41,7 +41,9 @@
 		<link>
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
-			<name>Terms of use and Privacy Policy</name>
+		</link>
+		<link>
+		  <name>Terms of use and Privacy Policy</name>
 			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
 		</link>
 	</links>
