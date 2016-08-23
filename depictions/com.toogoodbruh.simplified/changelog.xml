@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>1.0.0-m</version>
+		<change>Addresses scaling issues in Spotlight Search</change>
+		<change>Facetime icon gradient was changed</change>
+	</changes>
+	<changes>
 		<version>1.0.0-l</version>
 		<change>Music icon support added</change>
 	</changes>
