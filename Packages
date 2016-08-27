@@ -5,9 +5,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>= 8.1.2)
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-m_iphoneos-arm.deb
 Size: 1358396
-MD5sum: d70b8ca10c182b4188c2be96591bfe61
-SHA1: 7111d414c43f05632cdffef83b17ca208c29d677
-SHA256: 14873d3207ae293b46361926713c6f59b2f4a82b885acfcbec552d674d3350d4
+MD5sum: cc5f978162cc111722adaf2ae7a23403
+SHA1: c2b5ef2d10d9dc29558afb3de2781479f4190581
+SHA256: 763edb33380044d44f5b1c1f4a1387630e55ba4c5c118b5d43de4e8849d92b60
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -22,9 +22,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
 Size: 992602
-MD5sum: ad8942d8ac2db6ed0ca21d1d828100a8
-SHA1: b83dfb55785a19caf8f607adf34cb6b12444f5fa
-SHA256: 5e4db3f312647c9712ffc9ee0e15178651fad5e9b4dcf5c5e090c93d3f0c4625
+MD5sum: e57c5829c3d6d48be57249f67555ffe9
+SHA1: 92fd97ecefa46b38b3a164befa5007716af5c772
+SHA256: b1d4cb2dbda3ec85a39d2081c2734f3f34e46b1df1d41cbd21afc2d6fbcb0d94
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -37,13 +37,13 @@ Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.2_iphoneos-arm.deb
-Size: 31886
-MD5sum: c0b229e468f5a890d9d8eb509fd611d8
-SHA1: 9d502549e9d4fa85a66a372f71cab174e397836b
-SHA256: a1f77f421dffe896bd38a330e38803af899ab9689f9666d74e0920ca3d0b1d18
+Size: 31904
+MD5sum: 08ceb5f34257394074abd8a345a66b12
+SHA1: bd90fefa00c7e29afb5781e59fbbdc3e8907ed34
+SHA256: f1a24a88c6d8636b8df7c58727ec0c4a384b7b9b646f6222543c0519780adc10
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
-Description: Repo Icons
+Description: Simple look for iOS devices
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
 Name: TooGoodBruh Repo Icons
