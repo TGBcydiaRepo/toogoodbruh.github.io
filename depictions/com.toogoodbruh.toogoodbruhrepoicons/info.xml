@@ -1,0 +1,49 @@
+<package>
+	<id>com.toogoodbruh.toogoodbruhrepoicons</id>
+	<name>TooGoodBruh Repo Icons</name>
+	<version>0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>2.0</miniOS>
+			<maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<!--package>WinterBoard</package>
+		<package>IconBundles</package-->
+	</dependencies>
+	<descriptionlist>
+		<description>Section icons</description>
+		<description>Changes the default cydia section icons.</description>
+		<description><![CDATA[
+		Welcome!<br/>
+		Please download me!
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>
+		<!--screenshot>
+			<description>Other theme</description>
+			<image>.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>Other theme</description>
+			<image>.jpg</image>
+		</screenshot-->
+	</screenshots>
+	<changelog>
+		<!--change>Changes In this Update</change-->
+		<change>Package added to Cydia</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+		<link>
+		  <name>Terms of Use and Privacy Policy</name>
+			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
+		</link>
+	</links>
+</package>
