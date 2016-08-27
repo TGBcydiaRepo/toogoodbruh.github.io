@@ -5,9 +5,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>= 8.1.2)
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-m_iphoneos-arm.deb
 Size: 1358392
-MD5sum: 940575f1eb59dcec5c714399d1ada76e
-SHA1: 4cbaa938137a4b9cec434c42ed22bf86b1533774
-SHA256: 39da63ed4112cab5c58dcf7e532716c766f7a1dc8029c531adc771c9f6c3cb55
+MD5sum: 461f6f051ec85adac07505488cbc57d8
+SHA1: 54437b59591c87fb2910b311b95de7ce837691dc
+SHA256: deeea7b43c75f6607ddf4ddfa81d0b26b4b267e4faf62bbd119a9f95a9cdc816
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -22,9 +22,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
 Size: 992602
-MD5sum: 803539cd2016bfd0981fe56ba8a18db8
-SHA1: 6c4dff12d53200c001ffb55619467f7da21da8d5
-SHA256: 0bc97e13831dd981f7a0fe135932729fa9c789854a7c5b1434796836d21e1a63
+MD5sum: 531b0abc0abcc287bdce7a349396a419
+SHA1: ca0c468ffeaadd579d2a4f6def6e5fa6f94184d4
+SHA256: 294728d1cd93f6f01d1cc418d87f002ca7827e1f5778d779560d2bd2153f63e4
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -33,14 +33,14 @@ Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.simplified
 Name: Simplified Respring Logo
 
 Package: com.toogoodbruh.toogoodbruhrepoicons
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
-Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.1_iphoneos-arm.deb
+Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.2_iphoneos-arm.deb
 Size: 40198
-MD5sum: f5ece05addae4fc67856e93ca9c7eacd
-SHA1: 4117660d08aa3dbaabed9e907642e1ac09c3817f
-SHA256: 4e2885e69aebaf0c9486fad31015513142d63c3253b1b424fbae2e45b219ab7c
+MD5sum: a8fe7c1129794c6819e5cd17239a67a7
+SHA1: df85763c6500f168c704413f3500058838b08fcc
+SHA256: 457c97087865f1f32da354dcc8d96a2d4f6a8ffb7e53c03be69286141a6a6261
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Repo Icons
