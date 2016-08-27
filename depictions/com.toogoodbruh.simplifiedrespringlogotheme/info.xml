@@ -23,14 +23,14 @@
 		</description>
 	</descriptionlist>
 	<screenshots>
-		<screenshot>
+		<!--screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot>
 		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
-		</screenshot>
+		</screenshot-->
 	</screenshots>
 	<changelog>
 		<change>Changes In this Update</change>
@@ -42,7 +42,7 @@
 			<url>https://www.reddit.com/r/jailbreak</url>
 		</link>
 		<link>
-		  <name>Terms of use and Privacy Policy</name>
+		  <name>Terms of Use and Privacy Policy</name>
 			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
 		</link>
 	</links>
