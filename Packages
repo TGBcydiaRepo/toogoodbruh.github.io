@@ -5,9 +5,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>= 8.1.2)
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-m_iphoneos-arm.deb
 Size: 1358392
-MD5sum: 48462a37a972c5147cde5915ce3b311f
-SHA1: 1b6dc9f2c3ab9c358af9fec8cb8b6fd72bf580a5
-SHA256: f0e5a95c4b3c2acbcfa2afb2b80740bea8ab7e6b44d0dd80e38ca33c781ff857
+MD5sum: a0d3d30f1ced58a304c56ac0b34e78db
+SHA1: 2f53690d3cb8f415c69ffa1d545b09e1d3f1715f
+SHA256: fef300a5f46d2bbce1b37fdbd9c2d6db4c59d5f9720520c0a636be94eeb41209
 Section: Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -22,9 +22,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
 Size: 992612
-MD5sum: be3bdf94e9bc7c2cfcca6c0a63f2b4ca
-SHA1: 8707013b1700a62a245a2f409ad7806cfd2a8348
-SHA256: b3e418e9fe50e7b7b7e1fdc5429841938aac57344ef7c620392ab4bde261320a
+MD5sum: 7965c74c49482d8a517b647691b15780
+SHA1: 5e290018f8f1387e4428609cbdb0ee9bbdd14010
+SHA256: a5743dc9d1a28f8ce3b349b8871d696600338a2b6f17184e1eaa756879cb39a7
 Section: Addons (BootLogo)
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
