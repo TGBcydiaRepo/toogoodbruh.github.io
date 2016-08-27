@@ -14,6 +14,7 @@
 		<package>IconBundles</package-->
 	</dependencies>
 	<descriptionlist>
+    <description>Recommended to install. Gets rid of the question mark icon.</description>
 		<description>Section icons</description>
 		<description>Changes the default cydia section icons.</description>
 		<description><![CDATA[
