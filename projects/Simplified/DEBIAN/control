@@ -8,5 +8,5 @@ Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
-Depends: firmware(>= 10.1.2)
+Depends: firmware(>= 8.1.2)
 Image: file:///Library/Themes/Simplified.theme/icon.png
