@@ -24,9 +24,8 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Current Icons themed.</description>
-			<description> Many more to come!</description>
-			<image>Homescreen.jpg</image>
+			<description>Current Icons themed. Many more to come!</description>
+			<image>homescreenicons.jpg</image>
 		</screenshot>
 		<!--screenshot>
 			<description> </description>
@@ -34,9 +33,9 @@
 		</screenshot-->
 	</screenshots>
 	<changelog>
-		<change>More Info</change>
-		<change>Some Icons are changed slightly.</change>
-		<change>While some are completely new!</change>
+		<change>All icons were resized to 120x120</change>
+		<change>Addresses scaling issues and pixelation.</change>
+		<!--change>While some are completely new!</change-->
 	</changelog>
 	<links>
 		<link>
