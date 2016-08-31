@@ -8,3 +8,4 @@ Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
+Depends: firmware(<= 9.3.3)
