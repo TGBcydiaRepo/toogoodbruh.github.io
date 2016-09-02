@@ -1,13 +1,13 @@
 Package: com.toogoodbruh.simplified
-Version: 1.0.0-m
+Version: 1.0.0-n
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>= 8.1.2)
-Filename: ./debs/com.toogoodbruh.simplified_1.0.0-m_iphoneos-arm.deb
-Size: 1357950
-MD5sum: 1c0e1893159d4202f1f041c993e53f59
-SHA1: a3adb0e89560f2bf8b5bfbde91a211617ac39547
-SHA256: d535e699e7e7cd6327defc8a4d9b8bf8147dc2092ba3b82c75d34097f6de9206
+Filename: ./debs/com.toogoodbruh.simplified_1.0.0-n_iphoneos-arm.deb
+Size: 1053022
+MD5sum: 7c697b9a3d7f61bc2cc6a8fac44825b8
+SHA1: c5ca6d4d3d4bcbd9a235cb9a3943116b8e617650
+SHA256: 8a8c819afbbe944db4288f049eea0a8a3839b5f4c2c784767d08c9febf469b32
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
@@ -22,9 +22,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
 Size: 992602
-MD5sum: eb4aa87229512a072823966f784ae765
-SHA1: 196f9d078f6d55a40a06e14e45a9f92abd2c4c9c
-SHA256: ef70a43955d635b82271c8a7b54c7aa868c4df850aeda9173fc9873b39144e77
+MD5sum: 67d9581a0c1b9f64be955275cc3ced2c
+SHA1: 850fc2a9232a662ec9561d88b3198a9260deef9d
+SHA256: 11cf8f9e1497c2ea04428b53cfb1fb98ca2275b76cb82a5df24171a7648dd580
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -39,9 +39,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(<= 9.3.3)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.2_iphoneos-arm.deb
 Size: 31918
-MD5sum: a32ea318614f99590eb8e817992d533a
-SHA1: b06a8d0a408e2e121a2fc57ad44069cb77f693db
-SHA256: 30ba392858e30e4288a35f0793e43b378580e901d2ac7e83a6441d3f396114c2
+MD5sum: 4e33370b9b699cd59905718b7b55d16b
+SHA1: 3bcaac1db6c7c9faa50fb6a861f0fcad837515e4
+SHA256: 74b17f0a19ab60ba100087d321f433243eae339383ea3cff00d419a206da824a
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
