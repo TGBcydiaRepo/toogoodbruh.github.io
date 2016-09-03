@@ -1,6 +1,8 @@
 Package: com.toogoodbruh.simplified
 Name: Simplified
 Version: 1.0.0-n
+Priority: optional
+Size: 100000
 Architecture: iphoneos-arm
 Description: Simple look for iOS devices
 Date: day-of-week, dd month yyyy hh:mm:ss -zzzz
