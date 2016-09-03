@@ -1,6 +1,6 @@
 Package: com.toogoodbruh.simplified
 Name: Simplified
-Version: 1.0.0-00
+Version: 0.1.1
 Architecture: iphoneos-arm
 Description: Simple look for iOS devices
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.simplified
