@@ -2,7 +2,7 @@ Origin: TooGoodBruh
 Label: TooGoodBruh
 Suite: stable
 Version: 0.3
-Codename: ios
+Codename: TGBrepo
 Architectures: iphoneos-arm
 Components: main
 Description: TooGoodBruh Cydia Repository http://www.toogoodbruh.com
