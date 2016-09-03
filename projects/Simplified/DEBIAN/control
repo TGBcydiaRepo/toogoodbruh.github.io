@@ -3,6 +3,7 @@ Name: Simplified
 Version: 1.0.0-n
 Architecture: iphoneos-arm
 Description: Simple look for iOS devices
+Date: day-of-week, dd month yyyy hh:mm:ss -zzzz
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.simplified
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>

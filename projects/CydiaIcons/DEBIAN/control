@@ -7,5 +7,8 @@ Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbru
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
+upstreamauthor: TheJellyFist <martialartsapplemma@gmail.com>
+upstreammaintainer: TheJellyFist <martialartsapplemma@gmail.com>
+sponsor: TooGoodBruh <www.toogoodbruh.com>
 Section: TGB Themes
 Depends: firmware(<= 9.3.3)
