@@ -11,5 +11,5 @@ Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
-Depends: firmware(>= 8.1.2), mobilesubstrate, winterboard
+Depends: firmware(>= 8.1.2) , mobilesubstrate , winterboard
 Image: file:///Library/Themes/Simplified.theme/icon.png
