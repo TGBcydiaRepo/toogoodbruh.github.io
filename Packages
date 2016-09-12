@@ -1,17 +1,44 @@
-Package: com.toogoodbruh.simplified
-Version: 1.0.0-m
+Package: com.toogoodbruh.CydiaLogoTheme
+Version: 1.0.0-b
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
+Size: 27310
+MD5sum: 104b79947b6395128645973222d0ee90
+SHA1: fa5ef5b8733fa815341cdee721160afadc9fcd58
+SHA256: cc817858727733cccb2176f413b138126932d6d1c164af826fb5b2e93b9f0045
+Section: Test
+Homepage: https://repo.toogoodbruh.com
+Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.cydialogotheme
+Name: Cydia Icon Theme Beta
+
+Package: com.toogoodbruh.simplified
+Version: 1.0.0-o
+Architecture: iphoneos-arm
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+<<<<<<< HEAD
 Depends: firmware(>= 8.1.2)
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-m_iphoneos-arm.deb
 Size: 1357176
 MD5sum: f203cadaa04ff4a18db0441ca25ef7a1
 SHA1: 9ac33d787526113d5a671880a6955c23cd3869f0
 SHA256: 9def726777c8d23d30f9c305e58744ac9207b836d5af35f3295cae2679fd4ace
+=======
+Depends: firmware(>= 8.1.2) , mobilesubstrate , winterboard
+Filename: ./debs/com.toogoodbruh.simplified_1.0.0-o_iphoneos-arm.deb
+Size: 672560
+MD5sum: cd7d4f0b13b516ece758284f62486328
+SHA1: 0f8b7a40d119c534674a622995db8ab561754741
+SHA256: 91b59318c9224085640805b9e902490405dbf7606681eb71591cba9445778588
+>>>>>>> origin/gh-pages
 Section: TGB Themes
+Priority: optional
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Date: day-of-week, dd month yyyy hh:mm:ss -zzzz
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.simplified
 Image: file:///Library/Themes/Simplified.theme/icon.png
 Name: Simplified
@@ -21,10 +48,17 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
+<<<<<<< HEAD
 Size: 992608
 MD5sum: b9c64779209b8c9d22517854de0fdf10
 SHA1: 52d93135a9a5840aa2b0a33c8e6fe40812122891
 SHA256: f244cde81ef2468b8001e021dad5e2002eab000038910119b2168848356d9310
+=======
+Size: 992586
+MD5sum: 3ab614ded857e97e629fd18c3b019477
+SHA1: 1f17349c00df60a3d42b036a8065062ee2726398
+SHA256: 767cd292da879729050c24079746514cc028133795df080debfbff8e5ddf73b0
+>>>>>>> origin/gh-pages
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -32,15 +66,39 @@ Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.simplifiedrespringlogotheme
 Name: Simplified Respring Logo
 
+Package: com.toogoodbruh.testtheme
+Version: 1.0.0-a
+Architecture: iphoneos-arm
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
+Size: 8074362
+MD5sum: f082913cf7c1ae63a5038901cae182db
+SHA1: aab3277702f4bfb01599a9fa9abc928a839988a4
+SHA256: 1d061472dae5950505abaeff00169019347883e886672a0302a788ada0f3beb4
+Section: Test
+Homepage: https://repo.toogoodbruh.com
+Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.test
+Name: LoL Theme Beta
+
 Package: com.toogoodbruh.toogoodbruhrepoicons
 Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Depends: firmware(<= 9.3.3)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.2_iphoneos-arm.deb
+<<<<<<< HEAD
 Size: 31858
 MD5sum: 83c4568165d8a6337b8b07d1e6f5b514
 SHA1: 2c6d34d451a7b2a4f57391f60ffd2d9788782c94
 SHA256: eca2475aea4ccbf988386a02a60b6ca06cfc15b829ae5b38dbc9c4d096211c8a
+=======
+Size: 31916
+MD5sum: c796bc7c55b47cd0a733ee96cd95162a
+SHA1: 97fb4e084d8f33be7c62389750b8fb23aab2e50e
+SHA256: 868d2b71420b4830d3c1266cf048acb318e89dc001e7ba443e2e0bc800d23faf
+>>>>>>> origin/gh-pages
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
