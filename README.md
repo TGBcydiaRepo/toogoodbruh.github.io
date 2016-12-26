@@ -1,2 +1,2 @@
 # tgbrepo
-repo 2
+The official TooGoodBruh Cydia repository (Active)
