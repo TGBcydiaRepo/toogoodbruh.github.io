@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0.0-n</version>
+		<change>iOS 10 support</change>
+	</changes>
+	<changes>
 		<version>1.0.0-b</version>
 		<change>Nothing new</change>
 		<change>Trying things out</change>
