@@ -1,5 +1,9 @@
 <changelog>
   <changes>
+		<version>0.3</version>
+		<change>iOS 10 support</change>
+	</changes>
+  <changes>
 		<version>0.2</version>
 		<change>TGB Respring Logos icon added</change>
 	</changes>
