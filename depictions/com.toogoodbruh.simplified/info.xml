@@ -33,9 +33,10 @@
 		</screenshot-->
 	</screenshots>
 	<changelog>
+		<change>iOS 10 support</change>
 		<change>All icons were resized to 120x120</change>
 		<change>Addresses scaling issues and pixelation.</change>
-		<change>Facetime icon gradient changed.</change>
+		<!--change>Facetime icon gradient changed.</change-->
 	</changelog>
 	<links>
 		<link>
