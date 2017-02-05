@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27310
-MD5sum: dbd7d90fd0501b3f2114a96f5500a9f0
-SHA1: a3d44cbaf24ef10a090f169663d4aa767951ccee
-SHA256: a755918fa04c6fc1d78015000ffcfa8273677de73fc90cb3645e0df7bd78e114
+MD5sum: 6d9cd11fba0e38456c6baa6a7f8e52f9
+SHA1: 92b72a2b0bedb85ec342583354527e6d640f440b
+SHA256: 4ccffd012b75e1754ea126d6025d5b77998c92f4f0603293c9a7d93a1a022269
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -21,9 +21,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>= 8.1.2), mobilesubstrate
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-p_iphoneos-arm.deb
 Size: 557630
-MD5sum: bd9a18ea4d6110e5c4faf0025c0b0b8b
-SHA1: 270f6e3bf4f953249da76bdf3435b0bd71df4c7e
-SHA256: f748ad74d55f8da3b04c4fe9843326070a8361954fe16479b625ce8a5301172e
+MD5sum: 8a3967f4c668c1e8a554b2977b5ede09
+SHA1: 3ce6afeab5098784bb1e6f2ef153c2143c4d0516
+SHA256: 156ea0a91856614fbbfc9411a1cb475d53e1329d9a9f9b59308706aae4c580c7
 Section: TGB Themes
 Priority: optional
 Homepage: https://repo.toogoodbruh.com
@@ -40,9 +40,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
 Size: 992588
-MD5sum: 61f448f2665690ffb567f465bec44050
-SHA1: 61a324462707c23f55ac7fda2fd7879832f4686b
-SHA256: 3bdc6f88d011e49951cbe5a2a9196772ad9fde461ebbfdf194b9223a331ad876
+MD5sum: 949db72b5121625fceb9201a60ba04a0
+SHA1: c5855cde55889fd49902f18a6354a6c37d6c3749
+SHA256: ed6b4de07a59b62475aba2c995078fe03481f394ee2ba08869389abc1460c460
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -56,9 +56,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8074364
-MD5sum: c7af3a0515d168c2c0748a7ddd629ef9
-SHA1: d2eb5e9199f83e2428f0e58036f43908a42a4f12
-SHA256: 15e640653dffb2a0a33b9e6fec60ffc78eafef97fb05df04a3bac974eae2d171
+MD5sum: 550b319044d6ad98f0790c5e958e8951
+SHA1: f8057b719e9bcdd9ac8721a81362f7f53aafe3cb
+SHA256: 101d18466ac517ee2d5a2e59bbd844097743d2cd6d604fda0a9f16f7da91b9dd
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
@@ -73,13 +73,37 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=8.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.3_iphoneos-arm.deb
 Size: 31914
-MD5sum: 7bc4b3679f9946bd62f19b7f59af5e28
-SHA1: 0bd44102ade858b501e2483954a54d0e70bab7a5
-SHA256: 01efe2b6e8f84df68c025afae426a68a68dd8416b8029c56c5ba065ecd7d0e11
+MD5sum: 3eafc087c187618237d2a8135b9a9687
+SHA1: 6ec143595dbde1b28c058ceec57c7c452cc821b6
+SHA256: 565417ab35b02132634aa89fc3bd334991fd99a5910cff148b306ed0fe5f7e82
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
 Name: TooGoodBruh Repo Icons
+
+Package: libactivator
+Version: 1.9.11~beta5
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 4456
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.14), com.rpetrich.rocketbootstrap (>= 1.0.4) | firmware (<< 7.0)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch
+Filename: ./debs/libactivator_1.9.11~beta5_iphoneos-arm.deb
+Size: 1151516
+MD5sum: 4377bc1eaa3106f04cb3e57d35baae8e
+SHA1: a56ac5a82972d4724fb43d22db227e139ef8aa39
+SHA256: 6a6aaf37ab8d383a0710dd8cde346702bc04327c12ce6ed2c63bb79461b44c53
+Section: System
+Priority: optional
+Homepage: http://rpetri.ch/cydia/activator/beta/
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: http://rpetri.ch/cydia/activator/beta/
+Dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
 
