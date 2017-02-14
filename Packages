@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 Size: 27296
-MD5sum: 6c9dfc4e19b9be52a2dedc1a7136f07b
-SHA1: 77b3ecfd322a3e4cc50cae0c8320090cba3efb42
-SHA256: e06b6becab003eebd3010d6c47703338c8bf30ceedc835941c905bbe276f7e91
+MD5sum: a65b2e1302e3906cb6621aa97731e611
+SHA1: ba790318f319a19593cd2a3f3a614d33c70bae43
+SHA256: f6b106d1e003cbe77b22890852064baac351e0b4f8058cc077abe251631e08a5
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -20,10 +20,10 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>= 8.1.2), mobilesubstrate
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-p_iphoneos-arm.deb
-Size: 553494
-MD5sum: fb5c46b90154b604ca8110ddddb71d52
-SHA1: 4fb8de2685ee7ae47946204295d6b48f66835c92
-SHA256: d03cde6a38f447cdb51d2d664ac44098b9b8f87197926aa826c0f13ff6d80692
+Size: 553488
+MD5sum: e73a668a87f9078f9a7b6fa6a0d527e7
+SHA1: 8111386393009bf6676f67f85d42a449bae582a8
+SHA256: 936b9cba17a803b52a17b9c231320de3053ce07bd795dfdbc620e65058acd70d
 Section: TGB Themes
 Priority: optional
 Homepage: https://repo.toogoodbruh.com
@@ -39,10 +39,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
-Size: 992602
-MD5sum: 6cb7d4fe579172a2404f8429aa32978d
-SHA1: 37fa37875d431456c5dd9dfcdce71b26901cd0d5
-SHA256: a2884caa882d2d1c73d3e876d97443f6fd5a4544f653ceed0b4e8b750b14eb36
+Size: 992600
+MD5sum: 8cada36cc5d5da5df439f6bd0d53b5bd
+SHA1: 691e8aeae9b639ba709124d92b805cc1c7ef3760
+SHA256: d59e94958178699e3a6cffd33add84fe1c720cabd1da0c4b43a51f7230811e22
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -56,9 +56,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8072584
-MD5sum: 99711c5299bf649b3d8cbf30b4739de1
-SHA1: 55a3427e2196681cc3c486508f6c3390ff4ac5d1
-SHA256: 48d43126f3dafd491c560f3e316ed6fad4852485a6783aef34a1880d18b24718
+MD5sum: 6a438afebc1effc0faa709b51e873685
+SHA1: e2a9fb90d33b5e6823aee4f0ab81c11c3e4395b2
+SHA256: f67c5acea6eeb21d518071bb24e83f050dc012c0ab5d192bcbe6089b56c123eb
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
@@ -72,12 +72,12 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=8.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.3-a_iphoneos-arm.deb
-Size: 31904
-MD5sum: 076fdfddb6a430dd461219cc419045f7
-SHA1: e4960f4c8eb2ba561456581b9abf46f6296addb9
-SHA256: 482fd63eac659abfafcf87505572ba907b556c287bf8cc1d5ddec3d8f13f6635
+Size: 31908
+MD5sum: d75e23b75cf5ddcb6c1503edd9c05c18
+SHA1: bb9cfb1808f6f657894eade181802231bd54d470
+SHA256: 0bbf2f10c527bb8034e510cc91247382ff68cfb07e23c7d8a29140f2ce3d5239
 Section: TGB Themes
-Priority: required
+Priority: important
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
@@ -94,9 +94,9 @@ Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6)
 Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch
 Filename: ./debs/libactivator_1.9.11~beta5_iphoneos-arm.deb
 Size: 1151624
-MD5sum: 341c75fe059dac096e59eb595e2f0df9
-SHA1: 7e7308d0d997863ab00dd1289462b4954afc5709
-SHA256: 45858b11961022270330d8c9e7606f9a0f9b2ad5c8407dba9b6e10e7837d22fc
+MD5sum: 3a44066bb7136b113ae78f3474179264
+SHA1: 9ce16bd4fd9e9900d667c6c6399607a21a8fbd28
+SHA256: dde633921f66e299be0b06c2e71b3ce46596b98ab7ae3909d01b8ce593d0dc04
 Section: System
 Priority: optional
 Homepage: http://rpetri.ch/cydia/activator/beta/
