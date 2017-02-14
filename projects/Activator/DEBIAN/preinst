@@ -1,5 +1,0 @@
-#!/bin/bash
-mkdir -p /Library/Activator
-/usr/libexec/cydia/move.sh /Library/Activator || true
-chmod +rx /Library/Activator 2> /dev/null || true
-chmod +rx /var/stash/*/Activator/.. 2> /dev/null || true
