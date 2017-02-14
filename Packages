@@ -6,6 +6,7 @@ Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-b_iphoneos-arm.deb
 <<<<<<< HEAD
 <<<<<<< HEAD
 Size: 27296
+<<<<<<< HEAD
 MD5sum: f611b1a6f457070545f198f12d13cc0a
 SHA1: 70025cc103b08ff8878b2209a1e866e9578e84c4
 SHA256: d9326e7d8bdb5b95bfdaced268d510036d1f0b5d6184c4e930bfc31bb6e28224
@@ -26,6 +27,11 @@ SHA256: d36eaec42f818aa1279acbd2b8938bf969097bd503d112051bec5544a3e7d8cd
 MD5sum: 16ae0afa851d2d0dafb91975a9df1762
 SHA1: 5ca1dc00132673afa248dd1583a66b5071c55611
 SHA256: 7f0e9d654d7de23408a6b0fc8215a989cf883eda91f29d9bdf9b9baec4913f8c
+>>>>>>> master
+=======
+MD5sum: e1badce1ed33a9b4cb06dd785c9d47b7
+SHA1: 52aeba660055bcc3f6956120bccde9ca2af8e7cf
+SHA256: f26d0cdc545f8e5b44824ef0848a26d8aa0e15f531923ff45d14d1105ddbf4d3
 >>>>>>> master
 Section: Test
 Homepage: https://repo.toogoodbruh.com
@@ -61,9 +67,15 @@ SHA256: 29fea910d8fb15ebf9de487cd31063d2a16c97ee0c22caf61bb127208e5c710d
 >>>>>>> master
 =======
 Size: 553484
+<<<<<<< HEAD
 MD5sum: 0a738e39dfc61762d296f177861d62ca
 SHA1: c4e5a4bf43908e40d72605b5b1e7ccd342f95c81
 SHA256: 5c9765f638ae6a582aa5e2fdb4d020c3a8a6de6a10994bf2530f4c85aa57571c
+>>>>>>> master
+=======
+MD5sum: 3afea32111592b98c6b21b823c2bcb26
+SHA1: 28367f8c7cd0f986353863ed4f00c0e2ba44cb34
+SHA256: 8197845492380208900ffa2cc14fc1d45afdbbf677723ce7d5802ed74403d30b
 >>>>>>> master
 Section: TGB Themes
 Priority: optional
@@ -80,6 +92,7 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0_iphoneos-arm.deb
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +118,12 @@ MD5sum: 1f94d2a25edbec1d576f73ef4f392ad2
 SHA1: 38a615b72afd91f803edbf706d71afbf3c6fb3cb
 SHA256: 3bf79a1c130c85d7c1ba8ea0603cfdcaae54ab428ba5ac7a061b32bb5193fa47
 >>>>>>> master
+=======
+Size: 992608
+MD5sum: ff719eb4ca3ae063b5da134fc0fbd571
+SHA1: fee2192c3fdf3f6386b07a9d782129d65fa073af
+SHA256: 7db189c77fdebcb36466f900907f7997eb742b358cecf65129125eaede6233a5
+>>>>>>> master
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -120,9 +139,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-a_iphoneos-arm.deb
 Size: 8072584
-MD5sum: 0e91156a9fd8512fb3f318b63e97e135
-SHA1: ed477407cd66860222f225ce90b37b3ac6bc2301
-SHA256: c72a754e192e7e5bf75313890d220893a96bfb4fd2efcd51b3b87f3e2538eaf3
+MD5sum: 7c424f3cec72c9b39754662c973af820
+SHA1: 089307e8b02d8fc758b09d64fef9fa40a982d0a3
+SHA256: 92b3cc11f32090602c7892cb08f62f336c815d19d3c7308c751035b90413e61c
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
@@ -132,7 +151,7 @@ Name: LoL Theme Beta
 
 >>>>>>> master
 Package: com.toogoodbruh.toogoodbruhrepoicons
-Version: 0.3
+Version: 0.3-a
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 <<<<<<< HEAD
@@ -144,6 +163,7 @@ SHA1: f881d0c93301a7851166e02a49413849098bbcb5
 SHA256: 60f6814d3603114a3fcf4c41583836ab68a0108471f7fcbc7350b861280cc75a
 =======
 Depends: firmware(>=8.0)
+<<<<<<< HEAD
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.3_iphoneos-arm.deb
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +184,13 @@ MD5sum: 88b3650562953a2dc4a65f1f7da4d3af
 SHA1: c278170050b87883427c4305971ce42c2ac51cb5
 SHA256: a4ffb3a7dbfa835c0d423651b29def9cf6860b8dba3c5535c47b22524d6bcaaf
 >>>>>>> master
+=======
+Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.3-a_iphoneos-arm.deb
+Size: 31908
+MD5sum: 64d1319c60fa8facee281fb67688674e
+SHA1: 8215c7640ec9c511f142e73ba26a59988c898fd8
+SHA256: 13dfaca1ee9216e01627945d13b32eaed74be5f4a74a9fda3f376e69f9417bb0
+>>>>>>> master
 Section: TGB Themes
 Priority: required
 Homepage: https://repo.toogoodbruh.com
@@ -182,9 +209,9 @@ Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6)
 Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch
 Filename: ./debs/libactivator_1.9.11~beta5_iphoneos-arm.deb
 Size: 1151624
-MD5sum: b6ccd3a8bfc3093e332fd33c5043decc
-SHA1: 2b4f5ed0bf8b49bf11b511e20de325569d63a536
-SHA256: a5babd695a31ba91f8aaecaf6a2bddfd80cba44d1e13f6f4806b9a4f12c88c72
+MD5sum: 35f8c653c40a9bc5629ad892bd50db97
+SHA1: 375921d0b4e9615f4bb04ec1336b068a70b655bd
+SHA256: aecdfd2ca432182e30239d937f87f509d757be55db317e82a6551e49ad122d95
 Section: System
 Priority: optional
 Homepage: http://rpetri.ch/cydia/activator/beta/
