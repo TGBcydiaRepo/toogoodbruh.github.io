@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.toogoodbruhrepoicons</id>
 	<name>TooGoodBruh Repo Icons</name>
-	<version>0.3-a0</version>
+	<version>0.3-a00</version>
 	<compatibility>
 		<firmware>
-			<miniOS>2.0</miniOS>
-			<!--maxiOS>10.3</maxiOS-->
+			<!--miniOS>2.0</miniOS-->
+			<maxiOS>11</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
