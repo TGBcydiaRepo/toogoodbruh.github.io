@@ -2,15 +2,11 @@ Package: com.toogoodbruh.toogoodbruhrepoicons
 Name: TooGoodBruh Repo Icons
 Version: 0.3-a
 Architecture: iphoneos-arm
-
+Priority: required
 Description: Simple look for iOS devices
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
-<<<<<<< HEAD
-Depends: firmware(<= 11)
-=======
-Depends: firmware(>=8.0)
->>>>>>> master
+Depends: firmware(>=2.0)
