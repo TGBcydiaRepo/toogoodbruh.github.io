@@ -1,7 +1,7 @@
 <package>
 	<id>com.toogoodbruh.toogoodbruhrepoicons</id>
 	<name>TooGoodBruh Repo Icons</name>
-	<version>0.3-a</version>
+	<version>0.3-a0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>2.0</miniOS>
