@@ -1,10 +1,10 @@
 <package>
 	<id>com.toogoodbruh.simplified</id>
 	<name>Simplified</name>
-	<version>1.0.0-p</version>
+	<version>1.0.0-p1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.1.2</miniOS>
+			<!--miniOS>8.1.2</miniOS-->
 			<!--maxiOS>10.3</maxiOS-->
 		</firmware>
 	</compatibility>
