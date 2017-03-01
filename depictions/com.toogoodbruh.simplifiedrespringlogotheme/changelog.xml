@@ -1,5 +1,8 @@
 <changelog>
-	
+	<changes>
+		<version>1.0-a</change>
+		<change>Respring logo can be enabled in Anemone</change>
+	</changes>
 	<changes>
 		<version>1.0</version>
 		<change>Initial Release</change>
