@@ -1,17 +1,18 @@
 <package>
 	<id>com.toogoodbruh.simplifiedrespringlogo</id>
 	<name>Simplified Respring Logo</name>
-	<version>1.0</version>
+	<version>1.0-a</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.0</miniOS>
+			<!--miniOS>8.0</miniOS-->
 			<maxiOS>10.3</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<package>WinterBoard</package>
-		<package>IconBundles</package>
+		<!--package>WinterBoard</package-->
+		<!--package>IconBundles</package-->
+		<package>MakeRespringsGreatAgain</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Respring Logo</description>

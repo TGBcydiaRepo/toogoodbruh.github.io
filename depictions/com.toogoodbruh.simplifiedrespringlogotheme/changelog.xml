@@ -1,5 +1,8 @@
 <changelog>
-	
+	<changes>
+		<version>1.0-a</version>
+		<change>Can be enabled in Anemone</change>
+	</changes>
 	<changes>
 		<version>1.0</version>
 		<change>Initial Release</change>
