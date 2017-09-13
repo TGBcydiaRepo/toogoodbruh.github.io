@@ -5,3 +5,4 @@ dpkg-deb -bZgzip projects/SimplifiedRespringLogo debs
 dpkg-deb -bZgzip projects/CydiaIcons debs
 dpkg-deb -bZgzip projects/Simplified debs
 #dpkg-scanpackages -bZgzip projects/SimplifiedRespringLogo debs
+dpkg-deb -bZgzip projects/iOS11BetaProfile debs
