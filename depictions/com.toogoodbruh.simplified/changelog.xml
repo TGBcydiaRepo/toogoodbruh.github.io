@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0.0-p2</version>
+		<change>iOS 11 support</change>
+	</changes>
+	<changes>
 		<version>1.0.0-p</version>
 		<change>iOS 10 support</change>
 	</changes>

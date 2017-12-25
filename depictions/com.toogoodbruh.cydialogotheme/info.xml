@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.cydialogotheme</id>
 	<name>Cydia Icon Theme</name>
-	<version>1.0.0-b</version>
+	<version>1.0.0-c</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>10.3</maxiOS>
+			<maxiOS>11.1.2</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>

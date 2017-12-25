@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0-c</version>
+		<change>iOS 11 support</change>
+	</changes>
+	<changes>
 		<version>1.0-b</change>
 		<change>Respring logo can be enabled in Anemone</change>
 	</changes>

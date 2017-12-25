@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.toogoodbruhrepoicons</id>
 	<name>TooGoodBruh Repo Icons</name>
-	<version>0.3-a00</version>
+	<version>0.3-a001</version>
 	<compatibility>
 		<firmware>
 			<!--miniOS>2.0</miniOS-->
-			<maxiOS>11</maxiOS>
+			<maxiOS>11.1.2</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -34,7 +34,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<!--change>Changes In this Update</change-->
+		<change>iOS 11 support</change>
 		<change>Package added to Cydia</change>
 	</changelog>
 	<links>

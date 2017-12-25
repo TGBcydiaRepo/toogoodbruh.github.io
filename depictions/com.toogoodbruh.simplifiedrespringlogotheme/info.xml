@@ -1,7 +1,7 @@
 <package>
 	<id>com.toogoodbruh.simplifiedrespringlogo</id>
 	<name>Simplified Respring Logo</name>
-	<version>1.0-b</version>
+	<version>1.0-c</version>
 	<compatibility>
 		<firmware>
 			<!--miniOS>8.0</miniOS-->
@@ -34,7 +34,7 @@
 		</screenshot-->
 	</screenshots>
 	<changelog>
-		<change>Changes In this Update</change>
+		<change>iOS 11 support</change>
 		<change>Package added to Cydia</change>
 	</changelog>
 	<links>
