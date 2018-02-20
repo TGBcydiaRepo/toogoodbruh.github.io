@@ -1,8 +1,8 @@
-Origin: TooGoodBruh Public Repo
-Label: TooGoodBruh Public Repo
+Origin: Reposi3
+Label: Reposi3
 Suite: stable
-Version: 0.0-aa
+Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: TooGoodBruh Cydia Repository http://www.toogoodbruh.com
+Description: Reposi3 - a cydia repo template
