@@ -39,7 +39,7 @@
                     'elements'    : {}
                 }];
                 pkg[0]['elements']['#'+pid] = {'type':'text','source':'packagename'};
-                (new JSONRenderer({verbose:true,contentDefinition:pkg})) //false changed to true
+                (new JSONRenderer({verbose:false,contentDefinition:pkg})) 
                   .render();
               });
             } //render
