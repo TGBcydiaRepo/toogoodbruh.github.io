@@ -9,11 +9,10 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
+		<package>mobilesubstrate, com.anemonetheming.anemone</package>
 	</dependencies>
 	<descriptionlist>
-		<!--description>iOS 11 beta configuration profile</description>
-		<description>Once installed, you will need to restart your device</description-->
+		<description>MontyHacks II</description>
 		<description><![CDATA[
 		Welcome! This theme changes the following icons:<br/>
 		Weather, Watch, Music, Maps, Photos, Clock and Camera. <br/>
