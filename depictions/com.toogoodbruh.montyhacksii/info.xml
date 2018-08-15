@@ -1,47 +1,45 @@
 <package>
 	<id>com.toogoodbruh.montyhacksii</id>
-	<name>MontyHacks II</name>
+	<name>Simplified</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>10.2</miniOS>
-			<maxiOS>11.4</maxiOS-->
+			<miniOS>8.1.2</miniOS>
+			<maxiOS>11.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate, com.anemonetheming.anemone</package>
+		<package>mobilesubstrate</package>
+		<package>Anemone</package>
+		<package>IconBundles</package>
 	</dependencies>
 	<descriptionlist>
-		<description>MontyHacks II</description>
 		<description>Support for compatimark</description>
 		<description><![CDATA[
-		Welcome! This theme changes the following icons:<br/>
-		Weather, Watch, Music, Maps, Photos, Clock and Camera. <br/>
-		Please note Anemone is required for this theme to take effect. <br/>
-		As you install the theme, Anemone should download and install with it.
+			Monty Hacks II Theme. Designed within a few hours,
+			so please excuse the bugs.
 		]]>
-		</description>
+	</description-->
 	</descriptionlist>
-	<!--screenshots>
-		<screenshot>
-			<description>Other theme</description>
+	<screenshots>
+		<!--screenshot>
+			<description>Current Icons themed. Many more to come!</description>
+			<image>homescreenicons.jpg</image>
+		</screenshot-->
+		<!--screenshot>
+			<description> </description>
 			<image>.jpg</image>
-		</screenshot>
-		<screenshot>
-			<description>Other theme</description>
-			<image>.jpg</image>
-		</screenshot>
-	</screenshots-->
+		</screenshot-->
+	</screenshots>
 	<changelog>
-		<change>Initial release</change>
-		<!--change>nothing</change>
-		<change>nothing</change-->
+		<change>iOS 11 support. Initial release</change>
+		<!--change>Facetime icon gradient changed.</change-->
 	</changelog>
 	<links>
 		<link>
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
-		</link>
+    </link>
 		<link>
 		  <name>Terms of Use and Privacy Policy</name>
 			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>

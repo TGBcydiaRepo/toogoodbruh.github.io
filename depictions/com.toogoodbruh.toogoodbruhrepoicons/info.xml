@@ -5,7 +5,7 @@
 	<compatibility>
 		<firmware>
 			<miniOS>2.0</miniOS>
-			<maxiOS>11.4</maxiOS>
+			<maxiOS>11.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -17,11 +17,12 @@
     <description>Recommended to install. Gets rid of the question mark icon.</description>
 		<description>Section icons</description>
 		<description>Changes the default cydia section icons.</description>
-		<description><![CDATA[
+		<description>Support for compatimark</description>
+		<!--description><![CDATA[
 		Welcome!<br/>
 		Please download me!
 		]]>
-		</description>
+	</description-->
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
