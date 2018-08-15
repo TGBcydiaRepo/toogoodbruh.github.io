@@ -1,5 +1,9 @@
 <changelog>
 	<changes>
+		<version>1.0-d</version>
+		<change>Bugs squashed! Respring logo finally appears.</change>
+		<change>Required directories have changed. Still supports older firmwares</change>
+	<changes>
 		<version>1.0-c</version>
 		<change>iOS 11 support</change>
 	</changes>
