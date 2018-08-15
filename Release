@@ -1,8 +1,8 @@
 Origin: TooGoodBruh Public Repo
 Label: TooGoodBruh Public Repo
 Suite: stable
-Version: 0.0-aa
+Version: 0.0-aaa
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: TooGoodBruh Cydia Repository http://www.toogoodbruh.com
+Description: TooGoodBruh Cydia Repository http://repo.toogoodbruh.com

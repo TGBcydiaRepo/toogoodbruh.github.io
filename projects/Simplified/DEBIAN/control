@@ -11,6 +11,6 @@ Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
-Depends: firmware(>= 8.1.2), mobilesubstrate
+Depends: mobilesubstrate
 Image: file:///Library/Themes/Simplified.theme/icon.png
 Tag: purpose::extension, compatible_min::ios10, compatible_max::ios11.4
