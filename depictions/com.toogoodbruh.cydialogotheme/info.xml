@@ -5,7 +5,7 @@
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>11.1.2</maxiOS>
+			<maxiOS>11.4</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -16,9 +16,11 @@
 	<descriptionlist>
 		<description>Theme</description>
 		<description>Random</description>
+		<description>Support for compatimark</description>
 		<description><![CDATA[
 		Welcome!<br/>
 		Please download me!
+		Test text
 		]]>
 		</description>
 	</descriptionlist>

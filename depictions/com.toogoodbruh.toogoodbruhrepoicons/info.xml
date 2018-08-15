@@ -4,8 +4,8 @@
 	<version>0.3-a001</version>
 	<compatibility>
 		<firmware>
-			<!--miniOS>2.0</miniOS-->
-			<maxiOS>11.1.2</maxiOS>
+			<miniOS>2.0</miniOS>
+			<maxiOS>11.4</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>

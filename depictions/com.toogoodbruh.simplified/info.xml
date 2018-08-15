@@ -4,8 +4,8 @@
 	<version>1.0.0-p1</version>
 	<compatibility>
 		<firmware>
-			<!--miniOS>8.1.2</miniOS-->
-			<!--maxiOS>10.3</maxiOS-->
+			<miniOS>8.1.2</miniOS>
+			<maxiOS>11.4</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -16,11 +16,12 @@
 	<descriptionlist>
 		<description>Familiar look, yet redesigned</description>
 		<description>A theme that will make your iOS device look great!</description>
-		<description><![CDATA[
+		<description>Support for compatimark</description>
+		<!--description><![CDATA[
 		Welcome!<br/>
 		Please download me!
 		]]>
-		</description>
+	</description-->
 	</descriptionlist>
 	<screenshots>
 		<screenshot>

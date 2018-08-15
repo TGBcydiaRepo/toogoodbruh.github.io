@@ -4,8 +4,8 @@
 	<version>1.0-c</version>
 	<compatibility>
 		<firmware>
-			<!--miniOS>8.0</miniOS-->
-			<maxiOS>10.3.3</maxiOS>
+			<miniOS>8.0</miniOS>
+			<maxiOS>11.4</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -17,11 +17,12 @@
 	<descriptionlist>
 		<description>Respring Logo</description>
 		<description>For the Simplified Theme</description>
-		<description><![CDATA[
+		<description>Support for compatimark</description>
+		<!--description><![CDATA[
 		Welcome!<br/>
 		Please download me!
 		]]>
-		</description>
+	</description-->
 	</descriptionlist>
 	<screenshots>
 		<!--screenshot>

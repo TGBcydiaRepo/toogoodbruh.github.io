@@ -1,9 +1,5 @@
 <changelog>
-  <changes>
-		<version>0.3-a001</version>
-		<change>iOS 11 support</change>
-	</changes>
-  <changes>
+  <change>
 		<version>0.3</version>
 		<change>iOS 10 support</change>
 	</changes>
