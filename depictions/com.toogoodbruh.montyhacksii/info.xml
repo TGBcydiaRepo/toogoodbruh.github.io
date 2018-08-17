@@ -1,17 +1,15 @@
 <package>
-	<id>com.toogoodbruh.montyhacksii</id>
-	<name>MonthHacks II</name>
+	<id>com.toogoodbruh.simplifiedrespringlogo</id>
+	<name>MontyHacks II</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.1.2</miniOS>
+			<miniOS>8.0</miniOS>
 			<maxiOS>11.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<package>Anemone</package>
-		<!--package>IconBundles</package-->
 	</dependencies>
 	<descriptionlist>
 		<description>Support for compatimark</description>
@@ -21,27 +19,27 @@
 			Please note Anemone is required for this theme to take effect. <br/>
 			As you install the theme, Anemone should download and install with it.
 		]]>
-	</description-->
+	</description>
 	</descriptionlist>
 	<screenshots>
 		<!--screenshot>
-			<description>Current Icons themed. Many more to come!</description>
-			<image>homescreenicons.jpg</image>
-		</screenshot-->
-		<!--screenshot>
-			<description> </description>
+			<description>Other theme</description>
+			<image>.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot-->
 	</screenshots>
 	<changelog>
 		<change>iOS 11 support</change>
-		<change>Initial release</change>
+		<change>Package added to Cydia</change>
 	</changelog>
 	<links>
 		<link>
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
-    </link>
+		</link>
 		<link>
 		  <name>Terms of Use and Privacy Policy</name>
 			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
