@@ -1,5 +1,7 @@
 <changelog>
 	<changes>
 		<version>1.0.0</version>
-		<change>intial release</change>
+		<change>iOS 11 support</change>
+		<change>Initial release</change>
+	</changes>
 </changelog>
