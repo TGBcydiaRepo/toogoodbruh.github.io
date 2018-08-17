@@ -10,4 +10,4 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
 Depends: firmware(>=2.0)
-Tag: purpose::extension, compatible_min::ios2, campatible_max::ios11.4.1
+Tag: purpose::extension, compatible_min::ios2.0, compatible_max::ios11.4

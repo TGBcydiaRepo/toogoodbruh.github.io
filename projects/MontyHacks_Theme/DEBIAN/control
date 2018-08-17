@@ -2,8 +2,8 @@ Package: com.toogoodbruh.MontyHacksII
 Name: MontyHacks II
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description:
-Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.montyhacksii
+Description: theme
+Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
 Depends: com.anemonetheming.anemone
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
