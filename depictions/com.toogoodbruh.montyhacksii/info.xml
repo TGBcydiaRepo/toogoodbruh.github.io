@@ -1,6 +1,6 @@
 <package>
 	<id>com.toogoodbruh.montyhacksii</id>
-	<name>Simplified</name>
+	<name>MonthHacks II</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
@@ -11,13 +11,15 @@
 	<dependencies>
 		<package>mobilesubstrate</package>
 		<package>Anemone</package>
-		<package>IconBundles</package>
+		<!--package>IconBundles</package-->
 	</dependencies>
 	<descriptionlist>
 		<description>Support for compatimark</description>
 		<description><![CDATA[
-			Monty Hacks II Theme. Designed within a few hours,
-			so please excuse the bugs.
+			Welcome! This theme changes the following icons:<br/>
+			Weather, Watch, Music, Maps, Photos, Clock and Camera. <br/>
+			Please note Anemone is required for this theme to take effect. <br/>
+			As you install the theme, Anemone should download and install with it.
 		]]>
 	</description-->
 	</descriptionlist>
@@ -32,8 +34,8 @@
 		</screenshot-->
 	</screenshots>
 	<changelog>
-		<change>iOS 11 support. Initial release</change>
-		<!--change>Facetime icon gradient changed.</change-->
+		<change>iOS 11 support</change>
+		<change>Initial release</change>
 	</changelog>
 	<links>
 		<link>
