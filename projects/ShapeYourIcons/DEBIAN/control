@@ -1,0 +1,12 @@
+Package: com.toogoodbruh.shapeyouricons
+Name: Shape Your Icons
+Version: 1
+Architecture: iphoneos-arm
+Description: theme
+Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.shapeyouricons
+Depends: com.anemonetheming.anemone
+Homepage: https://repo.toogoodbruh.com
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Author: Gabe Nydick <martialartsapplemma@gmail.com>
+Section: TGB Themes
+Tag: purpose::extension, compatible_min::ios11, compatible_max::ios11.4
