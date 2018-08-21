@@ -1,0 +1,45 @@
+<package>
+	<id>com.toogoodbruh.shapeyouricons</id>
+	<name>Shape Your Icons</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<!--maxiOS>11.4.1</maxiOS-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Support for compatimark</description>
+		<description><![CDATA[
+			Change the shape of your icons! <br/>
+      Apply the shapes in Anemone
+		]]>
+	</description>
+	</descriptionlist>
+	<screenshots>
+		<!--screenshot>
+			<description>Other theme</description>
+			<image>.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>Other theme</description>
+			<image>.jpg</image>
+		</screenshot-->
+	</screenshots>
+	<changelog>
+		<change>Package added to Cydia</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+		<link>
+		  <name>Terms of Use and Privacy Policy</name>
+			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
+		</link>
+	</links>
+</package>
