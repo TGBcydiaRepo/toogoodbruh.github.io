@@ -7,5 +7,5 @@ Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.test
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
-Depends: firmware( >=8.1.2) , mobilesubstrate , winterboard
+Depends: firmware( <=8.1.2) , mobilesubstrate , winterboard
 Section: Test
