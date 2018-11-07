@@ -10,7 +10,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<package>com.anemonetheming.anemone</package>
+		<package>Anemone</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Support for compatimark!</description>
