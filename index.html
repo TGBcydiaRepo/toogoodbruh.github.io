@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Cydia Packages</title>
@@ -15,91 +15,101 @@
         'title'       : {'type':'text','source':'name'},
         '.reponame'   : {'type':'text','source':'name'},
         '#cydia-repo-url' : {'type':'custom','source':'repo-url'
-          , render : function(e,src) {
-            $(e).attr('href',"cydia://url/https://cydia.saurik.com/api/share#?source="+src);
-          } //render
-        }//#cydia-repo-url
-      }
-    },
-    {
-      'data-source' : 'pkg-list.json',
-      'elements'  : {
-        '#packages' : {'type':'custom','source':'packages',
-            render : function(e,src) {
-              $.each(src, function(idx,package) {
-                var pid = package.replace(/\./gi,'_');
-                var p = $("<li class='list-group-item'>");
-                var a = $("<a class='btn btn-link'>");
-                $(a).attr("id",pid);
-                $(a).attr("href","depictions/?p=" + package);
-                $(p).append(a);
-                $(e).append(p);
-                var pkg = [{
-                    'data-source' : "depictions/"+package+"/package-info.json",
-                    'elements'    : {}
-                }];
-                pkg[0]['elements']['#'+pid] = {'type':'text','source':'packagename'};
-                (new JSONRenderer({verbose:false,contentDefinition:pkg})) 
-                  .render();
-              });
-            } //render
-        } //#packages
-      } //containers
-    } //content item
-  ];
-  $(document).ready(function(){
-    var writer = new JSONRenderer({
-      verbose : false,
-      contentDefinition : content
-    });
-    writer.render();
-  }) //ready
-  </script>
+        , render : function(e,src) {
+          $(e).attr('href',"cydia://url/https://cydia.saurik.com/api/share#?source="+src);
+        } //render
+      }//#cydia-repo-url
+    }
+  },
+  {
+    'data-source' : 'pkg-list.json',
+    'elements'  : {
+      '#packages' : {'type':'custom','source':'packages',
+      render : function(e,src) {
+        $.each(src, function(idx,package) {
+          var pid = package.replace(/\./gi,'_');
+          var p = $("<li class='list-group-item'>");
+          var a = $("<a class='btn btn-link'>");
+          $(a).attr("id",pid);
+          $(a).attr("href","depictions/?p=" + package);
+          $(p).append(a);
+          $(e).append(p);
+          var pkg = [{
+            'data-source' : "depictions/"+package+"/package-info.json",
+            'elements'    : {}
+          }];
+          pkg[0]['elements']['#'+pid] = {'type':'text','source':'packagename'};
+          (new JSONRenderer({verbose:false,contentDefinition:pkg}))
+          .render();
+        });
+      } //render
+    } //#packages
+  } //containers
+} //content item
+];
+$(document).ready(function(){
+  var writer = new JSONRenderer({
+    verbose : false,
+    contentDefinition : content
+  });
+  writer.render();
+}) //ready
+</script>
 </head>
 <body>
 
-<div class="container">
-  <h1><img src="tgblogo.png"> <span class="reponame"></span></h1>
-</div>
-
-<div class="container">
-  <div class="well">
-    <p><span class="text-primary"><b><span class="reponame"></span></span></b> is a Cydia repository template.</p>
-    <a id="cydia-repo-url" class="btn btn-sm btn-default" href="#">Add to Cydia</a>
-  </div>
-</div>
-
-<div class="container">
-  <h3 id="wells" class="page-header">Hosted Packages</h3>
-</div>
-
-<div class="container">
   <div class="container">
-	<div class="panel panel-default">
-	  <div class="panel-heading">TGB Respring Logo</div>
-	  <div class="panel-body">
-		TGB custom respring logo. (Not yet tested on iOS 11)<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.simplifiedrespringlogotheme">More info</a>
-	  </div>
-	</div>
-	
-	<div class="panel panel-default">
-	  <div class="panel-heading">TGB Icon Pack</div>
-	  <div class="panel-body">
-		Replaces the question mark icons with tgb section images.<br /><br />
-		<a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.toogoodbruhrepoicons">More info</a>
-	  </div>
-	</div>
-	  
-	  <div class="panel panel-default">
-		<div class="panel-heading">
-			<div class="panel-body">
-				MontyHacks II Theme
-				<a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.montyhacksiidep">More Info</a>
-			</div>
-		</div>
-	</div>
-</div>
+    <h1><img src="tgblogo.png"> <span class="reponame"></span></h1>
+  </div>
+
+  <div class="container">
+    <div class="well">
+      <p><span class="text-primary"><b><span class="reponame"></span></span></b> is a Cydia repository template.</p>
+      <a id="cydia-repo-url" class="btn btn-sm btn-default" href="#">Add to Cydia</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3 id="wells" class="page-header">Hosted Packages</h3>
+  </div>
+
+  <div class="container">
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">TGB Respring Logo</div>
+        <div class="panel-body">
+          TGB custom respring logo. (Not yet tested on iOS 11)<br /><br />
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.simplifiedrespringlogotheme">More info</a>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">TGB Icon Pack</div>
+        <div class="panel-body">
+          Replaces the question mark icons with tgb section images.<br /><br />
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.toogoodbruhrepoicons">More info</a>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-body">
+            MontyHacks II Theme
+            <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.montyhacksiidep">More Info</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+      		<div class="panel-heading">
+      			<div class="panel-body">
+      				ShapeYourIcons
+      				<a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.shapeyouricons">More Info</a>
+      			</div>
+      		</div>
+      	</div>
+
+    </div>
   </ul>
 </div>
 
