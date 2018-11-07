@@ -10,9 +10,10 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+		<package>com.anemonetheming.anemone</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Support for compatimark</description>
+		<description>Support for compatimark!</description>
 		<description><![CDATA[
 			Welcome! This theme changes the following icons:<br/>
 			Weather, Watch, Music, Maps, Photos, Clock and Camera. <br/>
@@ -22,11 +23,11 @@
 	</description>
 	</descriptionlist>
 	<screenshots>
-		<!--screenshot>
-			<description>Other theme</description>
-			<image>.jpg</image>
-		</screenshot>
 		<screenshot>
+			<description>No images just yet</description>
+			<!--image>.jpg</image-->
+		</screenshot>
+		<!--screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot-->
