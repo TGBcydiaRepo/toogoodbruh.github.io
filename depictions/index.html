@@ -171,7 +171,7 @@
     $( document ).ready(function() {
         $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
             success : function(xml){
-              data_loader_engine(repoContents,xml);
+              data_loader_engine(repo,xml); //repoContents
               setAnchorTargets();
             },
             error: function() {
@@ -206,7 +206,7 @@
         $( document ).ready(function() {
             $.ajax({type: "GET", dataType: "xml",url : ("../tos.xml"),cache: false,
                 success : function(xml){
-                  data_loader_engine(repoPolicy,xml);
+                  data_loader_engine(tos,xml); //repoPolicy
                   setAnchorTargets();
                 },
                 error: function() {
