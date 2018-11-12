@@ -275,7 +275,7 @@
 <div id="contactInfo">
  <div class="container">
    <h5>CONTACT</h5>
-   <ul class="list-group" id="repoFooterLinks">
+   <ul id="repoFooterLinks" class="list-group">
    </ul>
  </div>
 </div>
@@ -283,108 +283,7 @@
 <div id="policyInfo">
   <div class="container">
     <h5>TERMS OF SERVICE</h5>
-    <ul class="list-group" id="repoFooterPolicy"></ul>
-  </div>
-</div>
-
-<script type="text/javascript">
-  function setAnchorTargets() {
-    // if on Cydia, set link targets to _blank
-    if (navigator.userAgent.search(/Cydia/) != -1) {
-      $("a").each(function() {
-        $(this).attr("target","_blank");
-      });
-    }
-  }
-
-   var repoContents = 	{
-   "#repoFooterLinks" :
-     {"type":"custom"
-       ,"source":"repo>footerlinks>link"
-       ,"render":function(element,source) {
-         $.each(source, function(index,data) {
-           var p = $("<li class='list-group-item'>");
-           var a = $("<a class='btn btn-link'>");
-           a.attr("href",$(data).find('url').text());
-           if ($(data).find('iconclass')) {
-             var i =  $("<span>")
-             i.attr("class",$(data).find('iconclass').text());
-             console.log(i);
-             $(a).append(i);
-           }
-           $(a).append(' '+$(data).find('name').text());
-           $(p).append(a)
-           $(element).append(p);
-         }); //each
-       } //render
-     }
- }
-   $( document ).ready(function() {
-       $.ajax({type: "GET", dataType: "xml",url : ("../repo.xml"),cache: false,
-           success : function(xml){
-             data_loader_engine(repoContents,xml);
-             setAnchorTargets();
-           },
-           error: function() {
-             $("#contactInfo").hide();
-             setAnchorTargets();
-           }
-       }); //ajax
-
-       //start ADD
-       var repoPolicy = 	{
-       "#repoFooterPolicy" :
-         {"type":"custom"
-           ,"source":"tos>footerlinks>link"
-           ,"render":function(element,source) {
-             $.each(source, function(index,data) {
-               var p = $("<li class='list-group-item'>");
-               var a = $("<a class='btn btn-link'>");
-               a.attr("href",$(data).find('url').text());
-               if ($(data).find('iconclass')) {
-                 var i =  $("<span>")
-                 i.attr("class",$(data).find('iconclass').text());
-                 console.log(i);
-                 $(a).append(i);
-               }
-               $(a).append(' '+$(data).find('name').text());
-               $(p).append(a)
-               $(element).append(p);
-             }); //each
-           } //render
-         }
-     }
-       $( document ).ready(function() {
-           $.ajax({type: "GET", dataType: "xml",url : ("../tos.xml"),cache: false,
-               success : function(xml){
-                 data_loader_engine(repoPolicy,xml);
-                 setAnchorTargets();
-               },
-               error: function() {
-                 $("#policyInfo").hide();
-                 setAnchorTargets();
-               }
-           }); //ajax
-       //end ADD
-       //
-
-
-   }); // ready
-
-</script>
-
-<div id="contactInfo">
- <div class="container">
-   <h5>CONTACT</h5>
-   <ul class="list-group" id="repoFooterLinks">
-   </ul>
- </div>
-</div>
-
-<div id="policyInfo">
-  <div class="container">
-    <h5>TERMS OF SERVICE</h5>
-    <ul class="list-group" id="repoFooterPolicy"></ul>
+    <ul id="repoFooterPolicy" class="list-group"></ul>
   </div>
 </div>
 
