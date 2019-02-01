@@ -1,10 +1,10 @@
 Package: com.toogoodbruh.shapeyouricons
 Name: Shape Your Icons
-Version: 1.0.0.0.0
+Version: 1.0.0.0.0.0
 Architecture: iphoneos-arm
 Description: Shape Your Icons with Anemone!
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.shapeyouricons
-Depends: com.anemonetheming.anemone, firmware( >10.0)
+Depends: com.anemonetheming.anemone, firmware( >>10.0)
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
