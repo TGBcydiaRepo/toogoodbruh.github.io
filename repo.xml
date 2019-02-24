@@ -10,10 +10,6 @@
 			<url>https://repo.toogoodbruh.com</url>
 			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
 		</link>
-		<link>
-			<name>Test</name>
-			<url>https://google.com</url>
-			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
-		</link>
+
 	</footerlinks>
 </repo>

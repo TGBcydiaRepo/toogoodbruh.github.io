@@ -10,10 +10,9 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<!--package>WinterBoard</package>
-		<package>IconBundles</package-->
 		<package>MakeRespringsGreatAgain</package>
 	</dependencies>
+
 	<descriptionlist>
 		<description>Respring Logo</description>
 		<description>For the Simplified Theme</description>
@@ -43,9 +42,6 @@
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
 		</link>
-		<link>
-		  <name>Terms of Use and Privacy Policy</name>
-			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
-		</link>
+
 	</links>
 </package>

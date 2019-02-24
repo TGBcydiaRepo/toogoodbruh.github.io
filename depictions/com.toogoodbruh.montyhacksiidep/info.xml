@@ -34,17 +34,13 @@
 	</screenshots-->
 	<changelog>
 		<change>Initial release</change>
-		<!--change>nothing</change>
-		<change>nothing</change-->
+
 	</changelog>
 	<links>
 		<link>
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
 		</link>
-		<link>
-		  <name>Terms of Use and Privacy Policy</name>
-			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
-		</link>
+
 	</links>
 </package>
