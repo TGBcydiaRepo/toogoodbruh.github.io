@@ -115,6 +115,26 @@
            );
            $(element).append(p);
          });
+
+        //added for tos.xml
+         ,"#externalTosLinks" :
+           {"type":"custom"
+             ,"source" :"tofs>footerlinks>link"
+             ,"paragraphElement"	: "<li class='list-group-item'>"
+             ,"render":function(element,source){
+               if ($(source).size()==0){
+                 $('#externalLinksContainer').remove()
+               }
+
+               $.each(source, function(index,data){
+                 var p = $("<li class='list-group-item'>");
+                 $(p).append(
+                   $("<a>")
+                   .attr("href",$(data).find('url').text())
+                   .text($(data).find('name').text())
+                 );
+                 $(element).append(p);
+               }); //end of added for tos.xml
        }
      }
  }
@@ -192,7 +212,7 @@
                   setAnchorTargets();
                 }
             }); //ajax*/
-            
+
         var repoPolicy = 	{
         "#repoFooterPolicy" :
           {"type":"custom"
