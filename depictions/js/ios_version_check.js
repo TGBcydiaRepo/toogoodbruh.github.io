@@ -9,6 +9,30 @@ var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
 var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
 
+/* ADDED
+  [ Detect iOS Version ]
+  supports iOS 2.0 or latter
+  call iOSversion() function will get:
+    status: boolean;  -- get iOS version: true, none: false
+    version: int; -- ex 11
+    info: string; -- ex IOS 11.2.6
+*/
+function iOSversion() {
+  let d, v;
+  if (/iP(hone|od|ad)/.test(navigator.platform)) {
+    v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+    d = {
+      status: true,
+      version: parseInt(v[1], 10) ,
+      info: parseInt(v[1], 10)+'.'+parseInt(v[2], 10)+'.'+parseInt(v[3] || 0, 10)
+    };
+  }else{
+    d = {status:false, version: false, info:''}
+  }
+  return d;
+} //END ADDED
+
+
 function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";
 
