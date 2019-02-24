@@ -181,7 +181,19 @@
         }); //ajax
 
         //start ADD
-        /*var repoPolicy = 	{
+        $( document ).ready(function() {
+            $.ajax({type: "GET", dataType: "xml",url : ("../tos.xml"),cache: false,
+                success : function(xml){
+                  data_loader_engine(repoPolicy,xml); //repoPolicy
+                  setAnchorTargets();
+                },
+                error: function() {
+                  $("#policyInfo").hide();
+                  setAnchorTargets();
+                }
+            }); //ajax*/
+            
+        var repoPolicy = 	{
         "#repoFooterPolicy" :
           {"type":"custom"
             ,"source":"tofs>footerlinks>link"
@@ -203,17 +215,7 @@
             } //render
           }
       }
-        $( document ).ready(function() {
-            $.ajax({type: "GET", dataType: "xml",url : ("../tos.xml"),cache: false,
-                success : function(xml){
-                  data_loader_engine(repoPolicy,xml); //repoPolicy
-                  setAnchorTargets();
-                },
-                error: function() {
-                  $("#policyInfo").hide();
-                  setAnchorTargets();
-                }
-            }); //ajax*/
+
         //end ADD
         //
 
