@@ -1,7 +1,6 @@
 /*
 I saw some parts of this code on the internet. I forgot where. If it's yours
 let me know and I'll credit you.
-
 */
 
 // changed const to var for IE9/10 compatibity.
