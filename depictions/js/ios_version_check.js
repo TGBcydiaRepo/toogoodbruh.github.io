@@ -17,6 +17,7 @@ var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
     version: int; -- ex 11
     info: string; -- ex IOS 11.2.6
 */
+
 function iOSversion() {
   let d, v;
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
@@ -30,6 +31,15 @@ function iOSversion() {
     d = {status:false, version: false, info:''}
   }
   return d;
+}
+
+let iosVer = iOSversion();
+if (iosVer.status) {
+  alert('iOS : '+iosVer.info+', version : '+iosVer.version);
+  //ex. IOS 11.2.6, version 11
+
+}else{
+  console.log('not iPhone or iPad');
 } //END ADDED
 
 
