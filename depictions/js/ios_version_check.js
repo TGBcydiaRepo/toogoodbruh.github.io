@@ -11,7 +11,7 @@ var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
 
 /* ADDED
   [ Detect iOS Version ]
-  supports iOS 2.0 or latter
+  supports iOS 2.0 or later
   call iOSversion() function will get:
     status: boolean;  -- get iOS version: true, none: false
     version: int; -- ex 11
