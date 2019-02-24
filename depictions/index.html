@@ -116,7 +116,7 @@
            $(element).append(p);
          });
 
-        //added for tos.xml
+        /*//added for tos.xml
          ,"#externalTosLinks" :
            {"type":"custom"
              ,"source" :"tofs>footerlinks>link"
@@ -134,7 +134,7 @@
                    .text($(data).find('name').text())
                  );
                  $(element).append(p);
-               }); //end of added for tos.xml
+               }); //end of added for tos.xml*/
        }
      }
  }
@@ -200,23 +200,12 @@
             }
         }); //ajax
 
-        //start ADD
-        $( document ).ready(function() {
-            $.ajax({type: "GET", dataType: "xml",url : ("../tos.xml"),cache: false,
-                success : function(xml){
-                  data_loader_engine(repoPolicy,xml); //repoPolicy
-                  setAnchorTargets();
-                },
-                error: function() {
-                  $("#policyInfo").hide();
-                  setAnchorTargets();
-                }
-            }); //ajax*/
 
-        var repoPolicy = 	{
-        "#repoFooterPolicy" :
+        //start ADD
+        var repoContentsTos = 	{
+        "#repoFooterLinksTos" :
           {"type":"custom"
-            ,"source":"tofs>footerlinks>link"
+            ,"source":"tos>footerlinks>link"
             ,"render":function(element,source) {
               $.each(source, function(index,data) {
                 var p = $("<li class='list-group-item'>");
@@ -235,6 +224,17 @@
             } //render
           }
       }
+        $( document ).ready(function() {
+            $.ajax({type: "GET", dataType: "xml",url : ("../tos.xml"),cache: false,
+                success : function(xml){
+                  data_loader_engine(repoContentsTos,xml); //repoContentsTos
+                  setAnchorTargets();
+                },
+                error: function() {
+                  $("#contactInfo").hide();
+                  setAnchorTargets();
+                }
+            }); //ajax*/
 
         //end ADD
         //
@@ -302,12 +302,7 @@
  </div>
 </div>
 
-<div id="policyInfo">
-  <div class="container">
-    <h5>TERMS OF SERVICE</h5>
-    <ul id="repoFooterPolicy" class="list-group"></ul>
-  </div>
-</div>
+
 
 
 </body>

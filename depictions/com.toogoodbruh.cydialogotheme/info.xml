@@ -10,7 +10,6 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<package>WinterBoard</package>
 		<package>IconBundles</package>
 	</dependencies>
 	<descriptionlist>

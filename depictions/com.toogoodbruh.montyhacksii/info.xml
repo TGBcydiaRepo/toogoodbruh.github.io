@@ -22,6 +22,7 @@
 		]]>
 	</description>
 	</descriptionlist>
+
 	<screenshots>
 		<screenshot>
 			<description>No images just yet</description>
@@ -32,6 +33,7 @@
 			<image>.jpg</image>
 		</screenshot-->
 	</screenshots>
+
 	<changelog>
 		<change>iOS 11 support</change>
 		<change>Package added to Cydia</change>

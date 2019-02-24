@@ -1,7 +1,7 @@
 <package>
 	<id>com.toogoodbruh.shapeyouricons</id>
 	<name>Shape Your Icons</name>
-	<version>1.0.0.0.0</version>
+	<version>1.0.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>9.0</miniOS>
@@ -20,7 +20,7 @@
 		]]>
 	</description>
 	</descriptionlist>
-	<screenshots>
+	<!--screenshots>
 		<!--screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
@@ -28,8 +28,8 @@
 		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
-		</screenshot-->
-	</screenshots>
+		</screenshot->
+	</screenshots-->
 	<changelog>
 		<change>Package added to Cydia</change>
 	</changelog>
