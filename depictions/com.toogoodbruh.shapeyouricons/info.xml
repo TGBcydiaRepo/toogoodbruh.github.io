@@ -20,7 +20,7 @@
 		]]>
 	</description>
 	</descriptionlist>
-	<!--screenshots>
+	<screenshots>
 		<!--screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
@@ -28,8 +28,8 @@
 		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
-		</screenshot->
-	</screenshots-->
+		</screenshot-->
+	</screenshots>
 	<changelog>
 		<change>Package added to Cydia</change>
 	</changelog>
