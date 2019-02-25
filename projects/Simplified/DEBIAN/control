@@ -13,4 +13,4 @@ Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
 Depends: mobilesubstrate
 Image: file:///Library/Themes/Simplified.theme/icon.png
-Tag: purpose::extension, compatible_min::ios10, compatible_max::ios11.4
+Tag: purpose::extension, compatible_min::ios10, compatible_max::ios12.1.2
