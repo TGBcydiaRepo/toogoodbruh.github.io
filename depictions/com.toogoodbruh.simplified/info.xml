@@ -6,7 +6,7 @@
 		<firmware>
 			<miniOS>8.1.2</miniOS>
 			<!--otherVersions>12.1.2</otherVersions-->
-			<maxIOS>12.0</maxIOS>
+			<maxIOS>11.4.1</maxIOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
