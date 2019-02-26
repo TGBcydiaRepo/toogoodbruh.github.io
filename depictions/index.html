@@ -46,13 +46,7 @@
 						function(message,isBad,unConf) {
 							$(element).html(message)
 							//.addClass( (isBad?'alert-danger':'alert-success')); //original line
-              .addClass( (isBad?'alert-danger':'alert-success'));
-						}
-
-            function(message,isBad,unConf) {
-							$(element).html(message)
-							//.addClass( (isBad?'alert-danger':'alert-success')); //original line
-              .addClass( (unConf?'alert-warning':'alert-success'));
+              .addClass( (isBad?'alert-danger':'alert-success' || unConf?'alert-warning'));
 						}
 					);
 					if(res==0) {$(element).hide()}
