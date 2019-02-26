@@ -65,7 +65,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
-		unConf = false;
+		//unConf = false;
 
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
@@ -73,18 +73,18 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
-			isBad = true; //added
+			//isBad = true; //added
 		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
-			unConf = true; // added
+			//unConf = true; // added
 		}
 		//unConf = true;
-		//isBad = true; //original placement
+		isBad = true; //original placement
 	}
-	//callBack(message,isBad); // original line
-	callBack(message,isBad,unConf);
+	callBack(message,isBad); // original line
+	//callBack(message,isBad,unConf);
 	//console.log(message, isBad, unConf);
 
-	//return (isBad?-1:1);
-	return (isBad?-1:1, unConf?-1:1);
+	return (isBad?-1:1);
+	//return (isBad?-1:1, unConf?-1:1);
 }
