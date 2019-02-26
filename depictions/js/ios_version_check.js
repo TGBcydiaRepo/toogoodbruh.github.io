@@ -77,7 +77,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 		}
 		unConf = true;
-		isBad = true;
+		//isBad = true;
 	}
 	//callBack(message,isBad); // original line
 	callBack(message,isBad,unConf);
