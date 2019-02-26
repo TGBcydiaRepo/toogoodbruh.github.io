@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.querystring.js"></script>
   <script type="text/javascript" src="js/data-loader-engine.js"></script>
@@ -33,17 +34,19 @@
 			}
 		,"#packageVersion" :
 			{"type":"text","source":"package>version"}
+
 		,"#compatibilityCheck" :
 			{"type":"custom"
 				,"source":"package>compatibility>firmware"
-				,"render":function(element,source){
+				,"render":function(element,source,false){
 					var res = ios_version_check(
 						$(source).find("miniOS").text(),
 						$(source).find("maxiOS").text(),
 						$(source).find("otherVersions").text(),
 						function(message,isBad) {
 							$(element).html(message)
-							.addClass( (isBad?'alert-danger':'alert-success'));
+							//.addClass( (isBad?'alert-danger':'alert-success')); //original line
+              .addClass( (unConf?'alert-warning':isBad?'alert-danger':'alert-success'));
 						}
 					);
 					if(res==0) {$(element).hide()}
