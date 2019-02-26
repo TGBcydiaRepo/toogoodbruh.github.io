@@ -80,6 +80,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		isBad = true;
 	}
 	callBack(message,isBad,unConf);
+	console.log(message, isBad, unConf);
 
 	return (isBad?-1:1, unConf?-1:1);
 }
