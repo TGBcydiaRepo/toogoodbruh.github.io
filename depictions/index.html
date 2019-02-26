@@ -43,16 +43,16 @@
 						$(source).find("miniOS").text(),
 						$(source).find("maxiOS").text(),
 						$(source).find("otherVersions").text(),
-						function(message,isBad) {
+						function(message,isBad,unConf) {
 							$(element).html(message)
 							//.addClass( (isBad?'alert-danger':'alert-success')); //original line
               .addClass( (isBad?'alert-danger':'alert-success'));
 						}
 
-            function(message,unConf) {
+            function(message,isBad,unConf) {
 							$(element).html(message)
 							//.addClass( (isBad?'alert-danger':'alert-success')); //original line
-              .addClass( (isBad?'alert-warning':'alert-success'));
+              .addClass( (unConf?'alert-warning':'alert-success'));
 						}
 					);
 					if(res==0) {$(element).hide()}
