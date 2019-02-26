@@ -9,7 +9,7 @@ var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
 var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
 var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
 
-function ios_version_check(minIOS,maxIOS,otherIOS,callBack,unConfirmed) {
+function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	"use strict";
 
 
@@ -65,6 +65,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack,unConfirmed) {
 
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
+		unConf = false;
 
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
