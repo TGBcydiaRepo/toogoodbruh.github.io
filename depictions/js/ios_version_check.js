@@ -76,13 +76,13 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 		}
-		//unConf = true;
+		unConf = true;
 		isBad = true;
 	}
-	callBack(message,isBad); // original line
-	//callBack(message,isBad,unConf);
-	//console.log(message, isBad, unConf);
+	//callBack(message,isBad); // original line
+	callBack(message,isBad,unConf);
+	console.log(message, isBad, unConf);
 
-	return (isBad?-1:1);
-	//return (isBad?-1:1, unConf?-1:1);
+	//return (isBad?-1:1);
+	return (isBad?-1:1, unConf?-1:1);
 }
