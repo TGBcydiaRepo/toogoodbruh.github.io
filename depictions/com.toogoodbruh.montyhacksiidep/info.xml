@@ -22,16 +22,16 @@
 		]]>
 		</description>
 	</descriptionlist>
-	<!--screenshots>
-		<screenshot>
+	<screenshots>
+		<!--screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot>
 		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
-		</screenshot>
-	</screenshots-->
+		</screenshot-->
+	</screenshots>
 	<changelog>
 		<change>Initial release</change>
 
