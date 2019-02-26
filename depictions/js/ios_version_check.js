@@ -73,11 +73,13 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
+			isBad = false; //added
 		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+			unConf = true; // added
 		}
 		unConf = true;
-		//isBad = true;
+		//isBad = true; //original placement
 	}
 	//callBack(message,isBad); // original line
 	callBack(message,isBad,unConf);
