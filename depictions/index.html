@@ -46,7 +46,8 @@
 						function(message,isBad,unConf) {
 							$(element).html(message)
 							//.addClass( (isBad?'alert-danger':'alert-success')); //original line
-              .addClass( (isBad?'alert-danger':'alert-success' || unConf?'alert-warning'));
+              .addClass( (isBad?'alert-danger':'alert-success'));
+              .addClass( (unConf?'alert-danger':'alert-warning') );
 						}
 					);
 					if(res==0) {$(element).hide()}
