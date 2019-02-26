@@ -82,6 +82,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		else if (maxVersion && compareVersions(maxVersion, osVersion) == 0){
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 			unConf = true; // added
+		}
 		//unConf = true;
 		//isBad = true; //original placement
 	}
