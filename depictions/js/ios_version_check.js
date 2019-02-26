@@ -65,7 +65,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
-		//unConf = false;
+		unConf = false;
 
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
