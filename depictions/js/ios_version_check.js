@@ -73,13 +73,8 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
-			isBad = false; //added
-		} /*else {
-			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
-			unConf = true; // added
-		}*/
-
-		else if (maxVersion && compareVersions(maxVersion, osVersion) == 0){
+			isBad = true; //added
+		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 			unConf = true; // added
 		}
@@ -88,7 +83,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 	}
 	//callBack(message,isBad); // original line
 	callBack(message,isBad,unConf);
-	console.log(message, isBad, unConf);
+	//console.log(message, isBad, unConf);
 
 	//return (isBad?-1:1);
 	return (isBad?-1:1, unConf?-1:1);
