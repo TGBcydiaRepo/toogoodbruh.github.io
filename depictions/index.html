@@ -38,7 +38,7 @@
 		,"#compatibilityCheck" :
 			{"type":"custom"
 				,"source":"package>compatibility>firmware"
-				,"render":function(element,source,false){
+				,"render":function(element,source,con){
 					var res = ios_version_check(
 						$(source).find("miniOS").text(),
 						$(source).find("maxiOS").text(),
