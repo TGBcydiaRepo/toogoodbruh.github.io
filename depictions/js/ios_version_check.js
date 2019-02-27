@@ -22,7 +22,30 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 			   ];
 	}
 
-	function compareVersions(one, two) {
+	function compareVersionsMin(one, two) {
+		// https://gist.github.com/TheDistantSea/8021359
+		for (var i = 0; i < one.length; ++i) {
+			if (two.length == i) {
+				return 1;
+			}
+
+			if (one[i] == two[i]) {
+				continue;
+			} else if (one[i] > two[i]) {
+				return 1;
+			} else {
+				return -1;
+			}
+		}
+
+		if (one.length != two.length) {
+			return -1;
+		}
+
+		return 0;
+	}
+
+	function compareVersionsMax(one, two) {
 		// https://gist.github.com/TheDistantSea/8021359
 		for (var i = 0; i < one.length; ++i) {
 			if (two.length == i) {
@@ -67,20 +90,22 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		isBad = false;
 		//unConf = false;
 
-	if (compareVersions(minVersion, osVersion) == 1) {
+	if (compareVersionsMin(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
 		isBad = true;
-	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
+	} else if (maxVersion && compareVersionsMin(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
 			//isBad = true; //added
-		} else {
+		} /*else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
 			//unConf = true; // added
-		}
+		}*/
 		//unConf = true;
 		isBad = true; //original placement
 	}
+
+
 	callBack(message,isBad); // original line
 	//callBack(message,isBad,unConf);
 	//console.log(message, isBad, unConf);
