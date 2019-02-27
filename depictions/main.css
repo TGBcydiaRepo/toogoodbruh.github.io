@@ -3,12 +3,12 @@
     color: #0B931F; /*#31708F */
     background-color: #33FF52; /*#D9EDF7 */
     border-color: #BCE8F1; /*#BCE8F1 */
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .alert-danger {
     box-shadow: 5px 5px 5px 5px grey;
-    border-radius: 30px;
+    border-radius: 20px;
     /*color: #0B931F; /*#31708F */
     /*background-color: #33FF52; /*#D9EDF7 */
     /*border-color: #BCE8F1; /*#BCE8F1 */
@@ -16,20 +16,20 @@
 
 .list-group {
     box-shadow: 5px 5px 5px 5px grey;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
-.list-group-item {
+/*.list-group-item {
     box-shadow: 5px 5px 5px 5px grey;
     border-radius: 25px;
-}
+}*/
 
 .repoFooterLinks {
     box-shadow: 5px 5px 5px 5px grey;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .repoFooterLinksTos {
     box-shadow: 5px 5px 5px 5px grey;
-    border-radius: 25px;
+    border-radius: 20px;
 }
