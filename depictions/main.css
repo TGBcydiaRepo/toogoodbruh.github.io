@@ -3,12 +3,12 @@
     color: #0B931F; /*#31708F */
     background-color: #33FF52; /*#D9EDF7 */
     border-color: #BCE8F1; /*#BCE8F1 */
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .alert-danger {
     box-shadow: 5px grey;
-    border-radius: 20px;
+    border-radius: 10px;
     /*color: #0B931F; /*#31708F */
     /*background-color: #33FF52; /*#D9EDF7 */
     /*border-color: #BCE8F1; /*#BCE8F1 */
