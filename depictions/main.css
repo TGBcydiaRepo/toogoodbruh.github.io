@@ -1,5 +1,5 @@
 .alert-success {
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px grey;
     color: #0B931F; /*#31708F */
     background-color: #33FF52; /*#D9EDF7 */
     border-color: #BCE8F1; /*#BCE8F1 */
@@ -7,7 +7,7 @@
 }
 
 .alert-danger {
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px grey;
     border-radius: 20px;
     /*color: #0B931F; /*#31708F */
     /*background-color: #33FF52; /*#D9EDF7 */
@@ -15,7 +15,7 @@
 }
 
 .list-group {
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px grey;
     border-radius: 20px;
 }
 
@@ -25,11 +25,11 @@
 }*/
 
 .repoFooterLinks {
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px grey;
     border-radius: 20px;
 }
 
 .repoFooterLinksTos {
-    box-shadow: 5px 5px grey;
+    box-shadow: 5px grey;
     border-radius: 20px;
 }
