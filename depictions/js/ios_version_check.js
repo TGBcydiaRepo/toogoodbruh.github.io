@@ -15,37 +15,10 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [
-				parseInt(bits[0], 10),
-				parseInt(bits[1] ? bits[1] : 0, 10),
-				parseInt(bits[2] ? bits[2] : 0, 10)
-			   ];
+		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
 	}
 
-	function compareVersionsMin(one, two) {
-		// https://gist.github.com/TheDistantSea/8021359
-		for (var i = 0; i < one.length; ++i) {
-			if (two.length == i) {
-				return 1;
-			}
-
-			if (one[i] == two[i]) {
-				continue;
-			} else if (one[i] > two[i]) {
-				return 1;
-			} else {
-				return -1;
-			}
-		}
-
-		if (one.length != two.length) {
-			return -1;
-		}
-
-		return 0;
-	}
-
-	function compareVersionsMax(one, two) {
+	function compareVersions(one, two) {
 		// https://gist.github.com/TheDistantSea/8021359
 		for (var i = 0; i < one.length; ++i) {
 			if (two.length == i) {
@@ -73,11 +46,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	var osVersion = [
-						parseInt(version[2], 10),
-						parseInt(version[3], 10),
-						parseInt(version[4] ? version[5] : 0, 10)
-					],
+	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
 
 		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
@@ -88,28 +57,20 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
-		//unConf = false;
 
-	if (compareVersionsMin(minVersion, osVersion) == 1) {
+	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
 		isBad = true;
-	} else if (maxVersion && compareVersionsMin(maxVersion, osVersion) == -1) {
+	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
 		if ("unsupported" == otherIOS) {
 			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
-			//isBad = true; //added
-		} /*else {
+		} else {
 			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
-			//unConf = true; // added
-		}*/
-		//unConf = true;
-		isBad = true; //original placement
+		}
+
+		isBad = true;
 	}
-
-
-	callBack(message,isBad); // original line
-	//callBack(message,isBad,unConf);
-	//console.log(message, isBad, unConf);
+	callBack(message,isBad);
 
 	return (isBad?-1:1);
-	//return (isBad?-1:1, unConf?-1:1);
 }
