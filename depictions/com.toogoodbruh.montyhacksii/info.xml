@@ -24,9 +24,9 @@
 	</descriptionlist>
 
 	<screenshots>
-		<screenshot>
+		<!--screenshot>
 			<description>No images just yet</description>
-			<!--image>.jpg</image-->
+			<!--image>.jpg</image->
 		</screenshot>
 		<!--screenshot>
 			<description>Other theme</description>
