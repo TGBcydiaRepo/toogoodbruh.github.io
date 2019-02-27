@@ -1,35 +1,35 @@
 .alert-success {
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 5px 5px 5px 5px grey;
     color: #0B931F; /*#31708F */
     background-color: #33FF52; /*#D9EDF7 */
     border-color: #BCE8F1; /*#BCE8F1 */
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .alert-danger {
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 30px;
     /*color: #0B931F; /*#31708F */
     /*background-color: #33FF52; /*#D9EDF7 */
     /*border-color: #BCE8F1; /*#BCE8F1 */
 }
 
 .list-group {
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 25px;
 }
 
 .list-group-item {
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 25px;
 }
 
 .repoFooterLinks {
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 25px;
 }
 
 .repoFooterLinksTos {
-    box-shadow: 10px 10px 5px grey;
-    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 25px;
 }
