@@ -1,22 +1,22 @@
 .alert-success {
-    box-shadow: 3px 3px grey;
+    box-shadow: 1px 1px grey;
     color: #0B931F; /*#31708F */
     background-color: #33FF52; /*#D9EDF7 */
     border-color: #BCE8F1; /*#BCE8F1 */
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .alert-danger {
-    box-shadow: 3px 3px grey;
-    border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    border-radius: 5px;
     /*color: #0B931F; /*#31708F */
     /*background-color: #33FF52; /*#D9EDF7 */
     /*border-color: #BCE8F1; /*#BCE8F1 */
 }
 
 .list-group {
-    box-shadow: 3px 3px grey;
-    border-radius: 20px;
+    box-shadow: 1px 1px grey;
+    border-radius: 10px;
 }
 
 /*.list-group-item {
@@ -25,11 +25,11 @@
 }*/
 
 .repoFooterLinks {
-    box-shadow: 3px 3px grey;
-    border-radius: 20px;
+    box-shadow: 1px 1px grey;
+    border-radius: 10px;
 }
 
 .repoFooterLinksTos {
-    box-shadow: 3px 3px grey;
-    border-radius: 20px;
+    box-shadow: 1px 1px grey;
+    border-radius: 10px;
 }
