@@ -19,11 +19,6 @@
     border-radius: 10px;
 }
 
-/*.list-group-item {
-    box-shadow: 5px 5px grey;
-    border-radius: 25px;
-}*/
-
 .repoFooterLinks {
     box-shadow: 1px 1px grey;
     border-radius: 10px;
@@ -32,4 +27,8 @@
 .repoFooterLinksTos {
     box-shadow: 1px 1px grey;
     border-radius: 10px;
+}
+
+.container {
+    box-shadow: grey;
 }
