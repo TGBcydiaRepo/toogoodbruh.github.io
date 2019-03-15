@@ -41,9 +41,9 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return 0;
 	}
 
-	//var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i); //original version
+	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i); //original version
 	//var version = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/ like/i); //added
-	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))?/ like/i); //modded
+	//var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))?/ like/i); //modded
 	if (!version) {
 		return 0;
 	}
