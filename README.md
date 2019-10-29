@@ -1,7 +1,7 @@
 # Reposi3
-This is Cydia repository template. This template contains samples on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootsrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
+This is Cydia repository is based off of the template by Reposi3.
 
-Data for this repo is stored on JSON files (XML for previous version) and are loaded on the depiction page dynamically. See the guide below on how to set it up. Note that this guide doesn't cover creating .deb files but will briefly cover assigning depictions.
+
 
 If you are looking for the XML-based version of project, you can download it [here](https://github.com/supermamon/Reposi3/archive/v15.07.zip). [Readme](https://github.com/supermamon/Reposi3/blob/v15.07/README.md).
 
