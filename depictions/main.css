@@ -15,17 +15,17 @@
 }
 
 .list-group {
-    box-shadow: 1px 1px grey;
+    /*box-shadow: 1px 1px grey;*/
     border-radius: 10px;
 }
 
 .repoFooterLinks {
-    box-shadow: 1px 1px grey;
+    /*box-shadow: 1px 1px grey;*/
     border-radius: 10px;
 }
 
 .repoFooterLinksTos {
-    box-shadow: 1px 1px grey;
+    /*box-shadow: 1px 1px grey;*/
     border-radius: 10px;
 }
 
