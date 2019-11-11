@@ -1,12 +1,11 @@
 <package>
 	<id>com.toogoodbruh.toogoodbruhrepoicons</id>
 	<name>TooGoodBruh Repo Icons</name>
-	<version>0.3-a00</version>
+	<version>0.3-a001</version>
 	<compatibility>
 		<firmware>
 			<miniOS>2.0</miniOS>
-				<maxiOS>12.4.2</maxiOS>
-				<otherVersions>unsupported</otherVersions>
+			<maxiOS>13.2.2</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -18,11 +17,12 @@
     <description>Recommended to install. Gets rid of the question mark icon.</description>
 		<description>Section icons</description>
 		<description>Changes the default cydia section icons.</description>
-		<description><![CDATA[
+		<description>Support for compatimark</description>
+		<!--description><![CDATA[
 		Welcome!<br/>
 		Please download me!
 		]]>
-		</description>
+	</description-->
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -35,7 +35,6 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<!--change>Changes In this Update</change-->
 		<change>Package added to Cydia</change>
 	</changelog>
 	<links>
@@ -43,9 +42,6 @@
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
 		</link>
-		<link>
-		  <name>Terms of Use and Privacy Policy</name>
-			<url>https://www.toogoodbruh.com/terms-of-service-privacy-policy</url>
-		</link>
+
 	</links>
 </package>
