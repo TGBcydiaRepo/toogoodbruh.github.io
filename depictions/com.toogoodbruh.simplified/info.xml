@@ -4,9 +4,9 @@
 	<version>1.0.0-p2</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.1.2</miniOS>
+			<miniOS>10.0</miniOS>
 			<!--otherVersions>12.1.2</otherVersions-->
-			<maxIOS>13.3 </maxIOS>
+			<maxIOS>13.3</maxIOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
