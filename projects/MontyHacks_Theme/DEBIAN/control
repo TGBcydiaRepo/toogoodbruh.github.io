@@ -1,10 +1,10 @@
 Package: com.toogoodbruh.montyhacksii
 Name: MontyHacks II
-Version: 1.0-b1
+Version: 1.0-b2
 Architecture: iphoneos-arm
-Description: theme
+Description: Theme made for the MontyHacks II hackathon. Theme Change a few icons and likely does not scale properly for iPhone X and later, as I do not have the device available for testing.
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.montyhacksii
-Depends: com.anemonetheming.anemone
+Depends: firmware( >= 11.4), firmware( <= 13.3)
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: Gabe Nydick <martialartsapplemma@gmail.com>

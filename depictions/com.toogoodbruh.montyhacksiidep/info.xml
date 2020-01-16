@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.montyhacksii</id>
 	<name>MontyHacks II</name>
-	<version>1.0.0</version>
+	<version>1.0-b2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.2</miniOS>
-			<maxiOS>11.4</maxiOS-->
+			<maxiOS>13.3</maxiOS-->
 		</firmware>
 	</compatibility>
 	<dependencies>
