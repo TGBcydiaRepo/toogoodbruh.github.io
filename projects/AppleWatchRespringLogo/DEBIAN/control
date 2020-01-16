@@ -5,6 +5,8 @@ Architecture: iphoneos-arm
 Description: An animated respring logo that looks like an Apple Watch update screen.
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.awrespringlogo
 Depends: firmware (>=10.0), firmware ( <=13.3), mobilesubstrate
+Preview: /icon.png
+Urgency: critical
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
