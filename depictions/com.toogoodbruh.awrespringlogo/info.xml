@@ -1,49 +1,43 @@
 <package>
 	<id>com.toogoodbruh.awrespringlogotheme</id>
-	<name>Apple Watch Respring Logo</name>
+	<name>Simplified</name>
 	<version>1.0-b2</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.0</miniOS>
-			<!--maxiOS>13.3</maxiOS-->
+			<miniOS>10.0</miniOS>
+			<!--otherVersions>12.1.2</otherVersions-->
+			<maxIOS>13.3 </maxIOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<!--package>MakeRespringsGreatAgain</package-->
+=
 	</dependencies>
-
 	<descriptionlist>
-		<description>Animated Apple Watch Respring Logo</description>
 		<description>Support for compatimark</description>
-		<!--description><![CDATA[
-		Welcome!<br/>
-		Please download me!
+		<description><![CDATA[
+		Apple Watch update screen-style respring logo. It is not a choppy animation.
 		]]>
 	</description-->
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Start</description>
-			<image>beg.png</image>
-		</screenshot>
-		<screenshot>
-			<description>Middle</description>
+			<description>What it looks like midway</description>
 			<image>mid.png</image>
 		</screenshot>
-    <screenshot>
-			<description>End</description>
-			<image>end.png</image>
-		</screenshot>
+		<!--screenshot>
+			<description> </description>
+			<image>.jpg</image>
+		</screenshot-->
 	</screenshots>
 	<changelog>
-		<change>Package added to repository</change>
+		<change>Initial Release</change>
 	</changelog>
 	<links>
 		<link>
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
-		</link>
+    </link>
 
 	</links>
 </package>
