@@ -1,15 +1,15 @@
 <package>
 	<id>com.toogoodbruh.awrespringlogotheme</id>
 	<name>Apple Watch Respring Logo</name>
-	<version>1.0</version>
+	<version>1.0-b1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>13.3</maxiOS>
+			<!--maxiOS>13.3</maxiOS-->
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<!--package>mobilesubstrate</package-->
+		<package>mobilesubstrate</package>
 		<!--package>MakeRespringsGreatAgain</package-->
 	</dependencies>
 
