@@ -1,0 +1,49 @@
+<package>
+	<id>com.toogoodbruh.awrespringlogo</id>
+	<name>Apple Watch Respring Logo</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>13.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<!--package>mobilesubstrate</package-->
+		<!--package>MakeRespringsGreatAgain</package-->
+	</dependencies>
+
+	<descriptionlist>
+		<description>Animated Apple Watch Respring Logo</description>
+		<description>Support for compatimark</description>
+		<!--description><![CDATA[
+		Welcome!<br/>
+		Please download me!
+		]]>
+	</description-->
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>Start</description>
+			<image>beg.png</image>
+		</screenshot>
+		<screenshot>
+			<description>Middle</description>
+			<image>mid.png</image>
+		</screenshot>
+    <screenshot>
+			<description>End</description>
+			<image>end.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Package added to repository</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+		</link>
+
+	</links>
+</package>

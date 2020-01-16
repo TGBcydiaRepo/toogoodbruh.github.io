@@ -1,0 +1,11 @@
+Package: com.toogoodbruh.awrespringlogo
+Name: Apple Watch Respring Logo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An animated respring logo that looks like an Apple Watch update screen.
+Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.awrespringlogotheme
+Homepage: https://repo.toogoodbruh.com
+Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
+Author: TooGoodBruh <martialartsapplemma@gmail.com>
+Section: TGB Respring Logos
+Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.3
