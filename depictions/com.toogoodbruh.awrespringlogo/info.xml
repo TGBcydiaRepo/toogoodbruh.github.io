@@ -1,5 +1,5 @@
 <package>
-	<id>com.toogoodbruh.awrespringlogotheme</id>
+	<id>com.toogoodbruh.awrespringlogo</id>
 	<name>Simplified</name>
 	<version>1.0-b2</version>
 	<compatibility>
@@ -18,7 +18,7 @@
 		<description><![CDATA[
 		Apple Watch update screen-style respring logo. It is not a choppy animation.
 		]]>
-	</description-->
+	</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
