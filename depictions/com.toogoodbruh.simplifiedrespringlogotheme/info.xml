@@ -1,7 +1,7 @@
 <package>
 	<id>com.toogoodbruh.simplifiedrespringlogo</id>
 	<name>Simplified Respring Logo</name>
-	<version>1.0-d2</version>
+	<version>1.0-d3</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
@@ -9,8 +9,8 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>MakeRespringsGreatAgain</package>
+		<!--package>mobilesubstrate</package-->
+		<!--package>MakeRespringsGreatAgain</package-->
 	</dependencies>
 
 	<descriptionlist>
@@ -24,14 +24,14 @@
 	</description-->
 	</descriptionlist>
 	<screenshots>
-		<!--screenshot>
+		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot>
 		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
-		</screenshot-->
+		</screenshot>
 	</screenshots>
 	<changelog>
 		<change>Attempting to fix respring logo not appearing</change>
