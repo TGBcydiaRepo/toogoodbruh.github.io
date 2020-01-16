@@ -10,7 +10,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<package>Anemone</package>
+		<!--package>Anemone</package-->
 	</dependencies>
 	<descriptionlist>
 		<description>Support for compatimark!</description>
@@ -26,16 +26,16 @@
 	<screenshots>
 		<!--screenshot>
 			<description>No images just yet</description>
-			<!--image>.jpg</image->
+			<image>.jpg</image->
 		</screenshot>
-		<!--screenshot>
+		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot-->
 	</screenshots>
 
 	<changelog>
-		<change>iOS 11 support</change>
+		<change>Adaptions made to support Installer 5.0.0</change>
 		<change>Package added to Cydia</change>
 	</changelog>
 	<links>

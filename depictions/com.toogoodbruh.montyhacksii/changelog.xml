@@ -1,5 +1,10 @@
 <changelog>
 	<changes>
+		<version>1.0-b2</version>
+		<change>Adaptions made to support Installer 5.0.0</change>
+	</changes>
+
+	<changes>
 		<version>1.0.0</version>
 		<change>iOS 11 support</change>
 		<change>Initial release</change>
