@@ -1,12 +1,12 @@
 <package>
 	<id>com.toogoodbruh.awrespringlogo</id>
 	<name>Apple Watch Respring Logo</name>
-	<version>1.0-b4</version>
+	<version>1.0-b5</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
 			<!--otherVersions>12.1.2</otherVersions-->
-			<maxIOS>13.3 </maxIOS>
+			<maxIOS>13.0 </maxIOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -31,6 +31,7 @@
 		</screenshot-->
 	</screenshots>
 	<changelog>
+    <change>Scaling and loop issues being resolved</change>
 		<change>Initial Release</change>
 	</changelog>
 	<links>

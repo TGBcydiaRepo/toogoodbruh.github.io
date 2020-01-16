@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.cydialogotheme_1.0.0-c_iphoneos-arm.deb
 Size: 27328
-MD5sum: 59123ade108c85c5223e59b49f9471e5
-SHA1: ac56082af4d24e67ac8855da23730a3aadd521e8
-SHA256: 62efa3c740e00a8797445e20ddcaa38a4118e1a4296f7778c4e69ce670b8589b
+MD5sum: a68380a8c6d55edeffd47492aa8c4537
+SHA1: a7776378f2b400f669e67e2766f93142824fb67f
+SHA256: 5ccfe8c483f868af5543701e65b966bde4d9e83530f429d883c881370a302713
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Just changes two icons, that's all. WinterBoard and IconBundles are required to run this theme.
@@ -16,15 +16,15 @@ Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.cydialogot
 Name: Cydia Icon Theme Beta
 
 Package: com.toogoodbruh.awrespringlogo
-Version: 1.0-b4
+Version: 1.0-b5
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0), firmware ( <=13.3), mobilesubstrate
-Filename: ./debs/com.toogoodbruh.awrespringlogo_1.0-b4_iphoneos-arm.deb
-Size: 34145602
-MD5sum: ed217d8f50bcb175fe37d79b1ec2f945
-SHA1: ab6239ef198effc1daae04b7bd467b690ad7d5dc
-SHA256: 34be6a6638a19841113de6094b027305298f263ad2bbe602cedff4c2c2ad6a9b
+Filename: ./debs/com.toogoodbruh.awrespringlogo_1.0-b5_iphoneos-arm.deb
+Size: 30833386
+MD5sum: 1a380038f43ae5abf83030d3091eb007
+SHA1: d79ca4bb57ff499b37c440fed2c5590d78a1feee
+SHA256: ebb72bad4b01ca7173d3aea5b0e7c78b912ddb6a51f7a6bcd3ee08f8561a78c9
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like an Apple Watch update screen.
@@ -39,9 +39,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.iosbeta11betaprofile_0_iphoneos-arm.deb
 Size: 4552
-MD5sum: ad98266a6102a919231bff2f1a1fd0c3
-SHA1: 4dc8e94cadec17adaa8960ed11afcf1450a38082
-SHA256: 27c8761d371fe4e0b7098880d571af7d4a75dbf07e0d3ecdd42320643098f5bc
+MD5sum: 0ff8f6a1abc5556901a9b66b6a32b3e7
+SHA1: 5d8e600941f0bf85c08b30ab27035b0f96ac8594
+SHA256: 75bc605a0f00700f9aa0daf44b7f4f6d948ef645a533818649affa390a8e289e
 Section: iOS Betas
 Homepage: https://repo.toogoodbruh.com
 Description: iOS 11 beta
@@ -56,9 +56,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware( >= 11.4), firmware( <= 13.3)
 Filename: ./debs/com.toogoodbruh.montyhacksii_1.0-b2_iphoneos-arm.deb
 Size: 3125908
-MD5sum: 39ab220362b34c1cd4fd55d63b471816
-SHA1: 657b3feb88cbb5f8d40a023c81b774a46e8041cf
-SHA256: 2487cede51bc80d07fbe579970505fe4a84f07c88d3977777d118e4f13531551
+MD5sum: 4c13a5496ce96c443311b2a72b05d1d5
+SHA1: 5bdc7208582ca20848459349e273a4e27f4c1a44
+SHA256: 06c186876bde0364eede33d98a763f780c16202f3fd7d6a3787e16872457fca5
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Theme made for the MontyHacks II hackathon. Theme Change a few icons and likely does not scale properly for iPhone X and later, as I do not have the device available for testing.
@@ -74,9 +74,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: com.anemonetheming.anemone, firmware( >>10.0)
 Filename: ./debs/com.toogoodbruh.shapeyouricons_1.0.0.1_iphoneos-arm.deb
 Size: 65666
-MD5sum: 18e5364c3acacf42a00b2592ef97f1e4
-SHA1: 3a73ca57d1c5fad2f235a9d0eb4a811f25ec30dc
-SHA256: 60f04d974ea617a29083ed0129cdcb1664caf08c418fef63f4bc827ebb344254
+MD5sum: 2d4613eb32eace59795d329ff7204584
+SHA1: a2df343257caeb2b8c7563c826845e96e2fc4a1d
+SHA256: 0b20819029e1165472f7c32c210518719e4eda5a45f6849eee8b1e591d407554
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Shape Your Icons with Anemone!
@@ -92,9 +92,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: mobilesubstrate
 Filename: ./debs/com.toogoodbruh.simplified_1.0.0-p2_iphoneos-arm.deb
 Size: 814724
-MD5sum: 9d05d705f320e43bb5158c68dc763e00
-SHA1: a9f9bcd8c564021ea414e541a1db23e46b28ba52
-SHA256: b2df85a3d86e9ea14eafffec187782967d5ed7e1e7e45794bc90331786cdc539
+MD5sum: 1cfecbe7b27d7ae9ca1c04f9618f9938
+SHA1: 305f1f34cc3aafd8eb99291d4de06d2a4fa5a5cc
+SHA256: f1b6ad8daaf190ed2bfedb37c384f1fced58e4e3bf438129b81409ae797b1c9e
 Section: TGB Themes
 Priority: optional
 Homepage: https://repo.toogoodbruh.com
@@ -112,9 +112,9 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Filename: ./debs/com.toogoodbruh.simplifiedrespringlogo_1.0-d3_iphoneos-arm.deb
 Size: 540654
-MD5sum: e7dcc5be00f300408cfd5d047ce0245d
-SHA1: 112c52a98da6b3efdd57f05a1c53b363587d47d0
-SHA256: 99e2b45d2bf111081bd8033a6f27ed0f9e0354a59b04765a0c47beb4c31c732a
+MD5sum: 0495b508466f0a491f24a7fc466ef1fd
+SHA1: 3ce0a8e65bf7ac3c3304d65efdeba513043cd31f
+SHA256: 383a55950087000723f87b1ceadf12f8d78acc0ba60f29b949c2b16cd19272be
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: Simple respring logo for the Simplified theme
@@ -130,9 +130,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware( <=8.1.2) , mobilesubstrate , winterboard
 Filename: ./debs/com.toogoodbruh.testtheme_1.0.0-b_iphoneos-arm.deb
 Size: 8072452
-MD5sum: d87d8de3e888965ce0669f7734581aa1
-SHA1: 4058dee075f4bbb38e81fc1aef230e8eb98907a7
-SHA256: 842c4fedcdc2c704b7e02f12776205fc2092b4fd3f1177edfd1f1e286781a557
+MD5sum: 351dd67b0f77d1023929809817b9aa11
+SHA1: cecdaf399ec8b3f5dfd6aabadf823ad4c2841e24
+SHA256: 841ad0a2aeffca05503dca409cce867ebc431616b1a737c981983016519f3005
 Section: Test
 Homepage: https://repo.toogoodbruh.com
 Description: Lol Theme Just a joke. Many updates to come! WinterBoard and IconBundles are required to run this theme.
@@ -147,9 +147,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=2.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.3-a001_iphoneos-arm.deb
 Size: 31942
-MD5sum: 207fa3ede9789a6838c0058634f60bf2
-SHA1: 0b6ca6e4fb95016d0338bf90df38dc5d248a0a6b
-SHA256: b14d9ba111d4362d1d8442e27c9b1499c77b184f2dece996bdd2dde1f7fab153
+MD5sum: d34bc89630a3066451b72a7fb40845d3
+SHA1: 75e38ac770d53129d321e2a5b70b8d5554c1ba11
+SHA256: cffcf2582c1d4246e1c4e2428edfd4eb2311101d52a70d4573cdff55430d8069
 Section: TGB Themes
 Priority: required
 Homepage: https://repo.toogoodbruh.com
