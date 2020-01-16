@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.simplifiedrespringlogo</id>
 	<name>Simplified Respring Logo</name>
-	<version>1.0-d0</version>
+	<version>1.0-d1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>8.0</miniOS>
-			<maxiOS>11.4.1</maxiOS>
+			<maxiOS>13.3</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
