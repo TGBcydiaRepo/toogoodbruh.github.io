@@ -1,7 +1,8 @@
 <changelog>
 	<changes>
-		<version>1.0-d1</version>
+		<version>1.0-d2</version>
 	<change>Added preview icon the will be seen in theme manager.</change>
+	<change>Attempting to fix respring logo not appearing</change>
 </changes>
 	<changes>
 		<version>1.0-d</version>
