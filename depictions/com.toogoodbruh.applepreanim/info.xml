@@ -1,0 +1,44 @@
+<package>
+	<id>com.toogoodbruh.applepreanim</id>
+	<name>Animated Apple Preorder Respring </name>
+	<version>1.0-b0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>13.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+
+	</dependencies>
+	<descriptionlist>
+		<description>Support for compatimark</description>
+		<description><![CDATA[
+		Apple Watch update screen-style respring logo. It is not a choppy animation.
+		]]>
+	</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>A shot of what it looks like while respringing</description>
+			<image>img1.png</image>
+		</screenshot>
+
+		<screenshot>
+			<description>The full animation.</description>
+			<image>app-covers-apple-outline.mp4</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+    <change>Scaling and loop issues being resolved</change>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+    </link>
+
+	</links>
+</package>
