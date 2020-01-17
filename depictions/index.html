@@ -40,8 +40,8 @@
 				,"source":"package>compatibility>firmware"
 				,"render":function(element,source,con){
 					var res = ios_version_check(
-						$(source).find("miniOS").text(),
-						$(source).find("maxiOS").text(),
+						$(source).find("minIOS").text(),//miniOS
+						$(source).find("maxIOS").text(),//maxiOS
 						$(source).find("otherVersions").text(),
 						//function(message,isBad,unConf) {
             function(message,isBad) { //original line
