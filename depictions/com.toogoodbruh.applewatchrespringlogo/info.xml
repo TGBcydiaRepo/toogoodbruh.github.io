@@ -21,8 +21,18 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>What it looks like midway</description>
+			<description>Beginning</description>
+			<image>beg.png</image>
+		</screenshot>
+
+		<screenshot>
+			<description>Midway</description>
 			<image>mid.png</image>
+		</screenshot>
+
+		<screenshot>
+			<description>End</description>
+			<image>end.png</image>
 		</screenshot>
 		<!--screenshot>
 			<description> </description>
