@@ -1,7 +1,4 @@
-/*
-I saw some parts of this code on the internet. I forgot where. If it's yours
-let me know and I'll credit you.
-*/
+
 
 // changed const to var for IE9/10 compatibity.
 var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
@@ -18,61 +15,83 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
 	}
 
-	function compareVersions(one, two) {
-		// https://gist.github.com/TheDistantSea/8021359
-		for (var i = 0; i < one.length; ++i) {
-			if (two.length == i) {
-				return 1;
-			}
 
-			if (one[i] == two[i]) {
-				continue;
-			} else if (one[i] > two[i]) {
-				return 1;
-			} else {
-				return -1;
-			}
-		}
 
-		if (one.length != two.length) {
-			return -1;
-		}
 
-		return 0;
-	}
 
-	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i); //original version
-	//var version = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/ like/i); //added
-	//var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))?/ like/i); //modded
-	if (!version) {
-		return 0;
-	}
+function versionCompare(v1, v2, options) {
+    var lexicographical = options && options.lexicographical,
+        zeroExtend = options && options.zeroExtend,
+        v1parts = v1.split('.'),
+        v2parts = v2.split('.');
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+    function isValidPart(x) {
+        return (lexicographical ? /^\d+[A-Za-z]*$/ : /^\d+$/).test(x);
+    }
 
-		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
-		minString = minIOS,
-		maxString = maxIOS,
+    if (!v1parts.every(isValidPart) || !v2parts.every(isValidPart)) {
+        return NaN;
+    }
 
-		minVersion = parseVersionString(minString),
-		maxVersion = maxString ? parseVersionString(maxString) : null,
+    if (zeroExtend) {
+        while (v1parts.length < v2parts.length) v1parts.push("0");
+        while (v2parts.length < v1parts.length) v2parts.push("0");
+    }
 
-		message = VERSION_CHECK_SUPPORTED,
-		isBad = false;
+    if (!lexicographical) {
+        v1parts = v1parts.map(Number);
+        v2parts = v2parts.map(Number);
+    }
 
-	if (compareVersions(minVersion, osVersion) == 1) {
-		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
-		isBad = true;
-	} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
-		if ("unsupported" == otherIOS) {
-			message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
-		} else {
-			message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
-		}
+    for (var i = 0; i < v1parts.length; ++i) {
+        if (v2parts.length == i) {
+            return 1;
+        }
 
-		isBad = true;
-	}
-	callBack(message,isBad);
+        if (v1parts[i] == v2parts[i]) {
+            continue;
+        }
+        else if (v1parts[i] > v2parts[i]) {
+            return 1;
+        }
+        else {
+            return -1;
+        }
+    }
 
-	return (isBad?-1:1);
+    if (v1parts.length != v2parts.length) {
+        return -1;
+    }
+
+    return 0;
+}
+
+
+var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+
+  osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
+  minString = minIOS,
+  maxString = maxIOS,
+
+  minVersion = parseVersionString(minString),
+  maxVersion = maxString ? parseVersionString(maxString) : null,
+
+  message = VERSION_CHECK_SUPPORTED,
+  isBad = false;
+
+if (compareVersions(minVersion, osVersion) == 1) {
+  message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
+  isBad = true;
+} else if (maxVersion && compareVersions(maxVersion, osVersion) == -1) {
+  if ("unsupported" == otherIOS) {
+    message = VERSION_CHECK_UNSUPPORTED.replace("%s", minString).replace("%s", maxString);
+  } else {
+    message = VERSION_CHECK_UNCONFIRMED.replace("%s", osString);
+  }
+
+  isBad = true;
+}
+callBack(message,isBad);
+
+return (isBad?-1:1);
 }
