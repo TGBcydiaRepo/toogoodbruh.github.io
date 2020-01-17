@@ -1,0 +1,44 @@
+<package>
+	<id>com.toogoodbruh.awrespringlogo</id>
+	<name>Apple Watch Respring Logo</name>
+	<version>1.0-b0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<!--otherVersions>12.1.2</otherVersions-->
+			<maxIOS>13.1</maxIOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+=
+	</dependencies>
+	<descriptionlist>
+		<description>Support for compatimark</description>
+		<description><![CDATA[
+		Apple Watch update screen-style respring logo. It is not a choppy animation.
+		]]>
+	</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>What it looks like midway</description>
+			<image>mid.png</image>
+		</screenshot>
+		<!--screenshot>
+			<description> </description>
+			<image>.jpg</image>
+		</screenshot-->
+	</screenshots>
+	<changelog>
+    <change>Scaling and loop issues being resolved</change>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+    </link>
+
+	</links>
+</package>
