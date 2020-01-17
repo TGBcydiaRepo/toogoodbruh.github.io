@@ -9,4 +9,4 @@ dpkg-deb -bZgzip projects/iOS11BetaProfile debs
 dpkg-deb -bZgzip projects/MontyHacks_Theme debs
 dpkg-deb -bZgzip projects/ShapeYourIcons debs
 dpkg-deb -bZgzip projects/AppleWatchRespringLogo debs
-#dpkg-deb -bZgzip projects/ApplePreOrderAnim
+dpkg-deb -bZgzip projects/ApplePreOrderAnim debs
