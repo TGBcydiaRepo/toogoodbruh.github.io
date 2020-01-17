@@ -4,9 +4,9 @@
 	<version>1.0-b00</version>
 	<compatibility>
 		<firmware>
-			<minIOS>10.0</minIOS>
-			<!--otherVersions>12.1.2</otherVersions-->
-			<maxIOS>13.1</maxIOS>
+			<miniOS>10.0</miniOS>
+			<otherVersions></otherVersions>
+			<maxiOS>13.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
