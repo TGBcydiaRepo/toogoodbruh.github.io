@@ -6,12 +6,11 @@
 		<firmware>
 
 			<miniOS>10.0</miniOS>
-				<maxiOS>12.4.1</maxiOS>
+				<maxiOS>13.3</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
-		<package>Anemone</package>
 	</dependencies>
 	<descriptionlist>
 		<description>Support for compatimark</description>
