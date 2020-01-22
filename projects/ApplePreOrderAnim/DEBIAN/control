@@ -1,6 +1,6 @@
 Package: com.toogoodbruh.applepreorderanim
 Name: Apple Preorder Animation
-Version: 1.0~b01
+Version: 1.0-b01
 Architecture: iphoneos-arm
 Description:  An animated respring logo that is the same as the apple on the waiting
  page before iPhone pre orders start.
@@ -10,6 +10,7 @@ Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.appleprean
 Depends: firmware (>=10.0), firmware ( <=13.3)
 Changes: Version 1.0~b01
  ·Scaling issues and respring loops resolved
+Icon: icon.png
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
