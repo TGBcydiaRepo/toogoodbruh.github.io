@@ -8,8 +8,6 @@ Description:  An animated respring logo that is the same as the apple on the wai
   · High resolution
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.applepreanim
 Depends: firmware (>=10.0), firmware ( <=13.3)
-Changes: Version 1.0~b01
- ·Scaling issues and respring loops resolved
 Icon: icon.png
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
