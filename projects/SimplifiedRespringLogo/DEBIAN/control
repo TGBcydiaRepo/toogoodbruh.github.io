@@ -8,4 +8,4 @@ Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Respring Logos
-Tag: purpose::extension, compatible_min::ios10, compatible_max::ios11.4
+Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.3

@@ -4,7 +4,7 @@
 	<version>1.0-d3</version>
 	<compatibility>
 		<firmware>
-			<miniOS>8.0</miniOS>
+			<miniOS>10.0</miniOS>
 			<maxiOS>13.3</maxiOS>
 		</firmware>
 	</compatibility>
