@@ -23,7 +23,7 @@
 		]]>
 	</description-->
 	</descriptionlist>
-	<screenshots>
+	<!--screenshots>
 		<screenshot>
 			<description>Other theme</description>
 			<image>.jpg</image>
@@ -32,9 +32,9 @@
 			<description>Other theme</description>
 			<image>.jpg</image>
 		</screenshot>
-	</screenshots>
+	</screenshots-->
 	<changelog>
-		<change>Attempting to fix respring logo not appearing</change>
+		<change>Fully working on iPhone and iPod</change>
 		<change>Package added to Cydia</change>
 	</changelog>
 	<links>
