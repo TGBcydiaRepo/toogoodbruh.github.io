@@ -7,7 +7,7 @@ Description:  An animated respring logo that is the same as the apple on the wai
   · Smooth animation
   · High resolution
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.applepreanim
-Depends: firmware (>=10.0), firmware ( <=13.3)
+Depends: firmware (>=10.0), firmware ( <=13.4)
 Icon: file://Users/gnydick/Documents/toogoodbruh.github.io/projects/ApplePreOrderAnim/DEBIAN/icon.png
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>

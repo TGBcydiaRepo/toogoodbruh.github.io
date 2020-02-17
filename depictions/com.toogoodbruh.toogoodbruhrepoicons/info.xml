@@ -3,11 +3,11 @@
 	<name>TooGoodBruh Repo Icons</name>
 	<version>0.3-a001</version>
 	<compatibility>
-		<firmware>
+		<!--firmware>
 			<miniOS>2.0</miniOS>
 			<maxiOS>13.3</maxiOS>
 		</firmware>
-	</compatibility>
+	</compatibility-->
 	<dependencies>
 		<package>mobilesubstrate</package>
 		<!--package>WinterBoard</package>
