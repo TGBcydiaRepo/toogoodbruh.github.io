@@ -1,9 +1,10 @@
 Origin: TooGoodBruh Public Repo
 Label: TooGoodBruh Public Repo
 Suite: stable
-Version: 0.0-aaa2
+Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Basic tweaks, maily focused on animated respring Logos
- <http://repo.toogoodbruh.com>
+Description: Basic themes, mainly focused on animated respring logos
+Homepage: <http://repo.toogoodbruh.com>
+Twitter: <https://twitter.com/GabeNydick>
