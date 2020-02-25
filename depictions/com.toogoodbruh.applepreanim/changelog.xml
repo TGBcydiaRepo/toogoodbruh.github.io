@@ -1,5 +1,9 @@
 <changelog>
   <changes>
+    <version>1.0.0</version>
+    <change>Initial Release</change>
+  </changes>
+  <!--changes>
     <version>1.0-b01</version>
   <change>Scaling issues being resolved.</change>
   </changes>
@@ -7,5 +11,5 @@
 	<changes>
 		<version>1.0-b00</version>
 	<change>Initial Release</change>
-</changes>
+</changes-->
 </changelog>

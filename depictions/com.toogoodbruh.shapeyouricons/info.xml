@@ -1,12 +1,12 @@
 <package>
 	<id>com.toogoodbruh.shapeyouricons</id>
 	<name>Shape Your Icons</name>
-	<version>1.0.0.1</version>
+	<version>1.0.1</version>
 	<compatibility>
 		<firmware>
 
 			<miniOS>10.0</miniOS>
-				<maxiOS>13.4</maxiOS>
+				<maxiOS>13.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -15,8 +15,8 @@
 	<descriptionlist>
 		<description>Support for compatimark</description>
 		<description><![CDATA[
-			Change the shape of your icons! <br/>
-      Apply the shapes in Anemone
+			Changes the icon shapes to circles. <br/>
+      Apply the shapes in your theme manager.
 		]]>
 	</description>
 	</descriptionlist>

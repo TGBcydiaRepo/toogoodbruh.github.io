@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.awrespringlogo</id>
 	<name>Apple Watch Respring Logo</name>
-	<version>1.0-b000</version>
+	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>13.4</maxiOS>
+			<maxiOS>13.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -15,7 +15,7 @@
 	<descriptionlist>
 		<description>Support for compatimark</description>
 		<description><![CDATA[
-		Apple Watch update screen-style respring logo. It is not a choppy animation.
+		Apple Watch update screen-style respring logo.
 		]]>
 	</description>
 	</descriptionlist>
@@ -45,7 +45,7 @@
 		</screenshot-->
 	</screenshots>
 	<changelog>
-    <change>Scaling and loop issues being resolved</change>
+    <!--change>Scaling and loop issues being resolved</change-->
 		<change>Initial Release</change>
 	</changelog>
 	<links>

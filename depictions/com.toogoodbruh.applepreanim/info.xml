@@ -1,11 +1,11 @@
 <package>
 	<id>com.toogoodbruh.applepreanim</id>
 	<name>Animated Apple Preorder Respring Screen</name>
-	<version>1.0-b01</version>
+	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
-			<maxiOS>13.4</maxiOS>
+			<maxiOS>13.4.1</maxiOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
@@ -31,7 +31,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-    <change>Scaling and loop issues being resolved</change>
+    <!--change>Scaling and loop issues being resolved</change-->
 		<change>Initial Release</change>
 	</changelog>
 	<links>
