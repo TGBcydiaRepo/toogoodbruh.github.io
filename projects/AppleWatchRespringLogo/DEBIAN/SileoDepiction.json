@@ -1,0 +1,86 @@
+{
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "useBottomMargin": false,
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView",
+                    "title": "AppleWatchPreorderRespringLogo"
+                },
+                {
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "An amazing respring logo"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "screenshots": [
+                        {
+                            "url": "http://images.toogoodbruh.com/img1.png",
+                            "accessibilityText": "Screenshot0"
+                        },
+                        {
+                            "url": "http://images.toogoodbruh.com/img2.png",
+                            "accessibilityText": "Screenshot1"
+                        },
+                        {
+                            "url": "http://images.toogoodbruh.com/img3.png",
+                            "accessibilityText": "Screenshot2"
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}"
+                },
+                {
+                    "useBottomMargin": false,
+                    "markdown": "Animated respring logo from the Apple Store app preorder screen. ",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "title": "markdown-description"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "text": "1.0.0",
+                    "class": "DepictionTableTextView",
+                    "title": "Version"
+                },
+                {
+                    "text": "02-29-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
+                    "text": "Free",
+                    "class": "DepictionTableTextView",
+                    "title": "Price"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "text": "Gabe Nydick",
+                    "class": "DepictionTableTextView",
+                    "title": "Developer"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "tintColor": "#0657bb",
+    "minVersion": "0.1",
+    "headerImage": "",
+    "class": "DepictionTabView"
+}
