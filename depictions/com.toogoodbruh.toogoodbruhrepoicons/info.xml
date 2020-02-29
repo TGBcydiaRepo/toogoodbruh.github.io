@@ -4,8 +4,8 @@
 	<version>0.4.0</version>
 	<compatibility>
 		<firmware>
-			<!--miniOS>2.0</miniOS>
-			<maxiOS>13.3</maxiOS-->
+			<miniOS>2.0</miniOS>
+			<maxiOS>13.3</maxiOS>
 		</firmware>
 	</compatibility-->
 	<dependencies>
@@ -17,7 +17,7 @@
     <description>Recommended to install. Gets rid of the question mark icon.</description>
 		<description>Section icons</description>
 		<description>Changes the default cydia section icons.</description>
-		<description>Support for compatimark</description>
+		<!--description>Support for compatimark</description-->
 		<!--description><![CDATA[
 		Welcome!<br/>
 		Please download me!
