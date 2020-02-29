@@ -7,7 +7,7 @@
                     "useBottomMargin": false,
                     "useBoldText": true,
                     "class": "DepictionSubheaderView",
-                    "title": "AppleWatchPreorderRespringLogo"
+                    "title": "Apple Watch Respring Logo"
                 },
                 {
                     "useSpacing": true,
@@ -39,7 +39,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Animated respring logo from the Apple Store app preorder screen. ",
+                    "markdown": "Animated respring logo based on the Apple Watch update screen. ",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
                     "title": "markdown-description"
