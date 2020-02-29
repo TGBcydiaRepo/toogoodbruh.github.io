@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applepreorderanim_1.0.0_iphoneos-arm.deb
-Size: 10119948
-MD5sum: ef844d3028f74420276f0c3eac50d8d1
-SHA1: 2e9e4840da08a3613d7fd36c203c517287933f20
-SHA256: 74cc80960ac6a46eeb1da20da1e6ab2c39a537b06a95e0a8f19ca9854202a6b4
+Size: 10119766
+MD5sum: 304ab8a1a461b1be74dd81214574bb70
+SHA1: 6338ccc4adf9cee20399c2ca58cc9c3f306ba4fb
+SHA256: 36f618c38102962c3f43e1d27a8c884c58a8ca452889735c7c98be1e5a537891
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that is the same as the apple on the waiting
@@ -26,10 +26,10 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0), firmware ( <=13.4)
 Filename: ./debs/com.toogoodbruh.applewatchrespringlogo_1.0.0_iphoneos-arm.deb
-Size: 4736340
-MD5sum: 469d696542bca44245ce90ba7ad80cb2
-SHA1: 96977071fb8e37b9e53016747fa15de3052e00b4
-SHA256: 0652b132fb762db23cd1013ccd72b329ae3853dbba2f42d4720a31be67dd54fe
+Size: 4736292
+MD5sum: e878a35bf95230cb2abf0475e4b85305
+SHA1: 9c4d4140d4c0ace453fe89d7aca7af9737d707c4
+SHA256: f36d7674261e9db182beb3eb50628771cb769b41abd37157ff38d7bfe6969761
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like an Apple Watch update screen.
@@ -39,6 +39,7 @@ Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
 Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.applewatchrespringlogo
 Name: Apple Watch Respring Logo
+Sileodepiction: http://sil.toogoodbruh.com/repo/depictions/com.toogoodbruh.applewatchrespringlogo.json
 
 Package: com.toogoodbruh.shapeyouricons
 Version: 1.0.1
@@ -46,10 +47,10 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware( >=10.0)
 Filename: ./debs/com.toogoodbruh.shapeyouricons_1.0.1_iphoneos-arm.deb
-Size: 65654
-MD5sum: a09b8b284c22e483c3d268e32368731e
-SHA1: 4885642f23b62d1557211e6695ba2c033c95f45d
-SHA256: edc866b9560694f90a08dc8a8b3b8340b7b113c511ae8bfeaa397828a474bca1
+Size: 65644
+MD5sum: 87e03995f3bb395fbbb619afbe2424ec
+SHA1: b61388c42a2e8d723c7e31788b4967dee5f7b5e7
+SHA256: 0c5b4480be0cf68639ee011243df676f58b83f65b4327b4559f135abdbd672f4
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Shape Your Icons with Anemone!
@@ -64,16 +65,16 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=2.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.4.0_iphoneos-arm.deb
-Size: 31944
-MD5sum: 9580b72b38c79c2ace624888e6ba2845
-SHA1: fad4ae5fdbfefabc5c0630bae22b132201c9b120
-SHA256: 9984befdb4ffa4bfcbc12786a35e4da8da0be31daf9edc59be56c49950e93db2
+Size: 31938
+MD5sum: e210de6a1094aeec206b3f0c6d26f9f1
+SHA1: 8183419dcd3d4381434dceca9970ec4981e6fc25
+SHA256: 0ab280209d40f681e2f6f6f0b32cee32d7f25a06a13b8ab4eb9bf7fdf8ea830e
 Section: TGB Themes
 Priority: required
 Homepage: https://repo.toogoodbruh.com
 Description: Simple look for iOS devices
 Tag: purpose::extension, compatible_min::ios2.0, compatible_max::ios13.4
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
-Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
+Depiction: http://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
 Name: TooGoodBruh Repo Icons
 
