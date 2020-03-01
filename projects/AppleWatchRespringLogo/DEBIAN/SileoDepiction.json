@@ -1,56 +1,77 @@
 {
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#2cb1be",
+    "headerImage": "https://images.toogoodbruh.com/apple.png",
     "tabs": [
         {
             "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
             "views": [
+              {
+                  "useBottomMargin": false,
+                  "useBoldText": true,
+                  "class": "DepictionSubheaderView",
+                  "title": "Apple Watch Update Respring Logo"
+              },
                 {
-                    "useBottomMargin": false,
-                    "useBoldText": true,
                     "class": "DepictionSubheaderView",
-                    "title": "Apple Watch Preorder Respring Logo"
-                },
-                {
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView",
-                    "markdown": "An amazing respring logo"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "itemCornerRadius": 6,
-                    "screenshots": [
-                        {
-                            "url": "http://images.toogoodbruh.com/img1.png",
-                            "accessibilityText": "Screenshot0"
-                        },
-                        {
-                            "url": "http://images.toogoodbruh.com/img2.png",
-                            "accessibilityText": "Screenshot1"
-                        },
-                        {
-                            "url": "http://images.toogoodbruh.com/img3.png",
-                            "accessibilityText": "Screenshot2"
-                        }
-                    ],
-                    "class": "DepictionScreenshotsView",
-                    "itemSize": "{160, 275.41333333333336}"
-                },
-                {
-                    "useBottomMargin": false,
-                    "markdown": "Animated respring logo from the Apple Store app preorder screen. ",
                     "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "title": "markdown-description"
+                    "markdown": "<p>Animated Apple Watch update screen respring logo.</p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "text"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                      {
+                          "accessibilityText": "Screenshot",
+                          "url": "https://images.toogoodbruh.com/AppleWatchRespring-.gif",
+                          "fullSizeURL": "https://images.toogoodbruh.com/AppleWatchRespring-.gif"
+                      },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/img1.jpg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/img1.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/img2.jpg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/img2.jpg"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "text": "1.0.0",
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
                     "class": "DepictionTableTextView",
-                    "title": "Version"
+                    "title": "Author",
+                    "text": "Gabe Nydick"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.0.0"
                 },
                 {
                     "text": "02-29-2020",
@@ -58,29 +79,64 @@
                     "title": "Released"
                 },
                 {
-                    "text": "Free",
                     "class": "DepictionTableTextView",
-                    "title": "Price"
+                    "title": "Price",
+                    "text": "Free"
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 8
+                    "spacing": 16
                 },
                 {
-                    "text": "Gabe Nydick",
-                    "class": "DepictionTableTextView",
-                    "title": "Developer"
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "No options",
+                            "openExternal": true
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 8
+                    "spacing": 16
                 }
-            ],
-            "class": "DepictionStackView"
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0.0"
+                },
+                {
+                    "text": "02-29-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial Release",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>test for SileoDepictions.json",
+                    "useRawFormat": true
+                }
+            ]
         }
-    ],
-    "tintColor": "#0657bb",
-    "minVersion": "0.1",
-    "headerImage": "",
-    "class": "DepictionTabView"
+    ]
 }
