@@ -63,6 +63,11 @@
                     "text": "1.0.0"
                 },
                 {
+                    "text": "02-29-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
                     "class": "DepictionTableTextView",
                     "title": "Price",
                     "text": "Free"
@@ -77,7 +82,7 @@
                         {
                             "class": "DepictionTableButtonView",
                             "title": "Support",
-                            "action": "",
+                            "action": "No options",
                             "openExternal": true
                         }
                     ]
@@ -100,8 +105,13 @@
                     "title": "1.0.0"
                 },
                 {
+                    "text": "02-29-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>Initial Release<\\/li><\\/ul>",
+                    "markdown": "<ul>\n<li>Initial Release",
                     "useRawFormat": true
                 },
                 {
@@ -112,7 +122,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>test for SileoDepictions.json<\\/li><\\/ul>",
+                    "markdown": "<ul>\n<li>test for SileoDepictions.json",
                     "useRawFormat": true
                 }
             ]
