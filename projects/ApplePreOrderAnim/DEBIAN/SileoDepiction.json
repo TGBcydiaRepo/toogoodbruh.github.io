@@ -9,6 +9,12 @@
             "class": "DepictionStackView",
             "tintColor": "#2cb1be",
             "views": [
+              {
+                  "useBottomMargin": false,
+                  "useBoldText": true,
+                  "class": "DepictionHeaderView",
+                  "title": "Apple Preorder Respring Logo"
+              },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,

@@ -6,7 +6,7 @@
                 {
                     "useBottomMargin": false,
                     "useBoldText": true,
-                    "class": "DepictionSubheaderView",
+                    "class": "DepictionHeaderView",
                     "title": "Apple Watch Respring Logo"
                 },
                 {
