@@ -6,7 +6,7 @@ Description:  An animated respring logo that is the same as the apple on the wai
  page before iPhone pre orders start.
   · Smooth animation
   · High resolution
-Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.applepreanim
+Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json
 Depends: firmware (>=10.0)
 Icon: file://Users/gnydick/Documents/toogoodbruh.github.io/projects/ApplePreOrderAnim/DEBIAN/icon.png
 Homepage: https://repo.toogoodbruh.com
@@ -14,3 +14,4 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
 Section: TGB Respring Logos
 Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
+SileoDepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json

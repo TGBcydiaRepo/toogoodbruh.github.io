@@ -8,6 +8,12 @@
         "title": "Apple Watch Respring Logo",
         "package": "com.toogoodbruh.applewatchrespringlogo",
         "hideShadow": false
+      },
+      {
+        "url": "https://images.toogoodbruh.com/apple.png",
+        "title": "Animated Apple Preorder Logo",
+        "package": "com.toogoodbruh.applewatchrespringlogo",
+        "hideShadow": false
       }
     ]
   }
