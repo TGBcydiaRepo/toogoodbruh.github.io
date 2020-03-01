@@ -74,7 +74,7 @@
                     "text": "1.0.0"
                 },
                 {
-                    "text": "02-29-2020",
+                    "text": "01-16-2020",
                     "class": "DepictionTableTextView",
                     "title": "Released"
                 },
@@ -94,7 +94,7 @@
                             "class": "DepictionTableButtonView",
                             "title": "Support",
                             "action": "No options",
-                            "openExternal": true
+                            "openExternal": false
                         }
                     ]
                 },
@@ -116,7 +116,7 @@
                     "title": "1.0.0"
                 },
                 {
-                    "text": "02-29-2020",
+                    "text": "01-16-2020",
                     "class": "DepictionTableTextView",
                     "title": "Released"
                 },

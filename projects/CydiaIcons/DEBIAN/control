@@ -4,10 +4,11 @@ Version: 0.4.0
 Architecture: iphoneos-arm
 Priority: required
 Description: Simple look for iOS devices
-Depiction: http://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.toogoodbruhrepoicons
+Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/CydiaIcons/DEBIAN/SileoDepiction.json&name=TGB%20Section%20Icons&section=TGB%20Themes&dev=Gabe%20Nydick
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: TooGoodBruh <martialartsapplemma@gmail.com>
 Section: TGB Themes
 Depends: firmware(>=2.0)
 Tag: purpose::extension, compatible_min::ios2.0, compatible_max::ios13.4
+SileoDepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/CydiaIcons/DEBIAN/SileoDepiction.json
