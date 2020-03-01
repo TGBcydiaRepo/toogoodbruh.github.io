@@ -32,6 +32,10 @@
                         {
                             "url": "https://images.toogoodbruh.com/img3.png",
                             "accessibilityText": "Screenshot2"
+                        },
+                        {
+                            "url": "https://images.toogoodbruh.com/AppleWatchRespring-.gif",
+                            "accessibilityText": "Screenshot2"
                         }
                     ],
                     "class": "DepictionScreenshotsView",
