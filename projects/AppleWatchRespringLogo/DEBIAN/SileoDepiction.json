@@ -7,7 +7,7 @@
                     "useBottomMargin": false,
                     "useBoldText": true,
                     "class": "DepictionSubheaderView",
-                    "title": "Apple Watch Respring Logo"
+                    "title": "Apple Watch Preorder Respring Logo"
                 },
                 {
                     "useSpacing": true,
@@ -22,19 +22,15 @@
                     "itemCornerRadius": 6,
                     "screenshots": [
                         {
-                            "url": "https://images.toogoodbruh.com/img1.jpg",
+                            "url": "http://images.toogoodbruh.com/img1.png",
                             "accessibilityText": "Screenshot0"
                         },
                         {
-                            "url": "https://images.toogoodbruh.com/img2.jpg",
+                            "url": "http://images.toogoodbruh.com/img2.png",
                             "accessibilityText": "Screenshot1"
                         },
                         {
-                            "url": "https://images.toogoodbruh.com/img3.jpg",
-                            "accessibilityText": "Screenshot2"
-                        },
-                        {
-                            "url": "https://images.toogoodbruh.com/AppleWatchRespring-.gif",
+                            "url": "http://images.toogoodbruh.com/img3.png",
                             "accessibilityText": "Screenshot2"
                         }
                     ],
@@ -43,7 +39,7 @@
                 },
                 {
                     "useBottomMargin": false,
-                    "markdown": "Animated respring logo based on the Apple Watch update screen. ",
+                    "markdown": "Animated respring logo from the Apple Store app preorder screen. ",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
                     "title": "markdown-description"
