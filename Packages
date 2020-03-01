@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applepreorderanim_1.0.0_iphoneos-arm.deb
-Size: 10120610
-MD5sum: a7c750c751a626df38debc2030b7240d
-SHA1: 595c8ed504d34baf9ae96247c8ecdef822a03d5e
-SHA256: b65b38b774fee808a29a4686e31823d34d66ab53e8de1b6cfc551083896506e8
+Size: 10120662
+MD5sum: 1f6b4f8ac9f745608317573f9700a70b
+SHA1: 19d49fe608fe1f48b39bb3f350381f12934f245e
+SHA256: 616bf8c70e95349a1214a9ba1510a699531935ae4067678f4295ae8ac9c20fcf
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that is the same as the apple on the waiting
@@ -16,7 +16,7 @@ Description: An animated respring logo that is the same as the apple on the wait
   · High resolution
 Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
-Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json
+Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json&name=Apple%20Pre0rder%20Animation&section=TGB%20Respring%Logos&dev=Gabe%20Nydick
 Icon: file://Users/gnydick/Documents/toogoodbruh.github.io/projects/ApplePreOrderAnim/DEBIAN/icon.png
 Name: Apple Preorder Animation
 Sileodepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json
@@ -27,10 +27,10 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applewatchrespringlogo_1.0.0_iphoneos-arm.deb
-Size: 4736820
-MD5sum: e874cdd52cced4b90b5a8104e7b7783c
-SHA1: b7eff1380985a8b857aaf69c5f8089ab24fd5967
-SHA256: eb2e972599c512af3e416e5f9b1a0d0da18891f3fee263c1c319337ccd84a973
+Size: 4736862
+MD5sum: 8b1e580721d3fd5a2e11f6e5666c005e
+SHA1: 111e5b273b4a04db185911cc0f273cfff495ecb7
+SHA256: c3daf43c5859ba43f78f8b3339929048e2195f8fd65fa7b4e07ca9d6fde7afd8
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like an Apple Watch update screen.
@@ -38,7 +38,7 @@ Description: An animated respring logo that looks like an Apple Watch update scr
   · Takes up less space than previous versions
 Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
-Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/AppleWatchRespringLogo/DEBIAN/SileoDepiction.json
+Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/AppleWatchRespringLogo/DEBIAN/SileoDepiction.json&name=Apple%20Watch%20Respring%20Logo&section=TGB%20Respring%Logos&dev=Gabe%20Nydick
 Name: Apple Watch Respring Logo
 Sileodepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/AppleWatchRespringLogo/DEBIAN/SileoDepiction.json
 
@@ -49,9 +49,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware( >=10.0)
 Filename: ./debs/com.toogoodbruh.shapeyouricons_1.0.1_iphoneos-arm.deb
 Size: 65644
-MD5sum: e846de8be6b42dbae18689f36c4017be
-SHA1: 0e8a0beec6436fce75faed0ab2a4d800bb68355b
-SHA256: 60eb7d6030af560119dda2e2f6b5d08f4ae28af0d6679d7095654fcd50c4ee45
+MD5sum: 21409191f8bdee5bbee2e56c4a89ccff
+SHA1: e568cb84319e0c21dea2b4c35e610336d73b8f8f
+SHA256: 5e1da5bd14d9687a09628d85c1f53ba65806bb5a3238d00ccfadcf2e9b73e414
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Shape Your Icons with Anemone!
@@ -67,9 +67,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=2.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.4.0_iphoneos-arm.deb
 Size: 31938
-MD5sum: c0e92ec0bf2d9edea6b88a2e4485c831
-SHA1: de310b41ae8b2f7702023e950d9d84f6a740799a
-SHA256: fc4b5b196f6d24099bf81ae8971aa24168ea845f8957a292c3c1b97915e1f27a
+MD5sum: 5fe4d71da6829016d8a130119ca9a859
+SHA1: 520b4961ea6371fde5de77fd55bc7db3081ff580
+SHA256: 1159e578dfe51211f8984bc2d24b4cb37ca5c2052f096fa30883ca4d5535776b
 Section: TGB Themes
 Priority: required
 Homepage: https://repo.toogoodbruh.com
