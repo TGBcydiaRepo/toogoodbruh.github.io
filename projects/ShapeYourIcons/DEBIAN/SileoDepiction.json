@@ -1,0 +1,146 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#2cb1be",
+    "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>Change the shape of your icons through a theme manager. Icon shadows are included.</p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": ""
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/SYIscreenshot.jpeg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/SYIscreenshot.jpeg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/SYIshadowic.jpeg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/SYIshadowic.jpeg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/SYIshadow.jpeg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/SYIshadow.jpeg"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "Gabe Nydick"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.0.1"
+                },
+                {
+                    "text": "03-01-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Updated"
+                },
+                {
+                    "text": "08-20-2018",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0.1"
+                },
+                {
+                    "text": "03-01-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Updated"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul><li>Sileo Depictions added</li><li>New depiction format based on Sileo depictions</li><li>Shadow issues remain, refer to screenshots</li></ul>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0.0"
+                },
+                {
+                    "text": "08-20-2018",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial Release</li></ul>",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}

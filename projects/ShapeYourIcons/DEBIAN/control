@@ -3,10 +3,11 @@ Name: Shape Your Icons
 Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Shape Your Icons with Anemone!
-Depiction: https://repo.toogoodbruh.com/depictions/?p=com.toogoodbruh.shapeyouricons
+Depiction: Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ShapeYourIcons/DEBIAN/SileoDepiction.json&name=Shape%20Your%20Icons%20Theme&section=TGB%20Themes&dev=Gabe%20Nydick
 Depends: firmware( >=10.0)
 Homepage: https://repo.toogoodbruh.com
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
 Section: TGB Themes
 Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
+SileoDepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ShapeYourIcons/DEBIAN/SileoDepiction.json
