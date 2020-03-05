@@ -2,7 +2,7 @@
     "minVersion": "0.1",
     "class": "DepictionTabView",
     "tintColor": "#2cb1be",
-    "headerImage": "https://images.toogoodbruh.com/apple.png",
+    "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
     "tabs": [
         {
             "tabname": "Details",
