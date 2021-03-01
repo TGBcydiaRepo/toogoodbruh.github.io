@@ -1,5 +1,5 @@
 {
-    "minVersion": "1.0.3",
+    "minVersion": "1.0.4",
     "class": "DepictionTabView",
     "tintColor": "#2cb1be",
     "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
@@ -113,7 +113,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.3"
+                    "title": "1.0.4"
                 },
                 {
                     "text": "03-1-2021",
@@ -129,7 +129,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.3"
+                    "title": "1.0.4"
                 },
                 {
                     "class": "DepictionMarkdownView",
