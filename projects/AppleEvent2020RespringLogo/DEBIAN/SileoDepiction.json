@@ -1,0 +1,142 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#2cb1be",
+    "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+              {
+                  "useBottomMargin": false,
+                  "useBoldText": true,
+                  "class": "DepictionSubheaderView",
+                  "title": "Apple Watch Update Respring Logo"
+              },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<p>Animated Apple Watch update screen respring logo.</p>",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "text"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284.44444444444}",
+                    "screenshots": [
+                      {
+                          "accessibilityText": "Screenshot",
+                          "url": "https://images.toogoodbruh.com/AppleWatchRespring-.gif",
+                          "fullSizeURL": "https://images.toogoodbruh.com/AppleWatchRespring-.gif"
+                      },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/img1.jpg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/img1.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://images.toogoodbruh.com/img2.jpg",
+                            "fullSizeURL": "https://images.toogoodbruh.com/img2.jpg"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Author",
+                    "text": "Gabe Nydick"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.0.0"
+                },
+                {
+                    "text": "01-16-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Initial Release"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Support",
+                            "action": "No options",
+                            "openExternal": false
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "tabname": "Changelog",
+            "class": "DepictionStackView",
+            "tintColor": "#2cb1be",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0.0"
+                },
+                {
+                    "text": "01-16-2020",
+                    "class": "DepictionTableTextView",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>Initial Release",
+                    "useRawFormat": true
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>test for SileoDepictions.json",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ]
+}
