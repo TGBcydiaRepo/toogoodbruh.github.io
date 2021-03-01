@@ -1,8 +1,8 @@
 {
-    "minVersion": "1.0.8",
+    "minVersion": "1.0.9",
     "class": "DepictionTabView",
     "tintColor": "#2cb1be",
-    "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
+    "headerImage": "https://images.toogoodbruh.com/Apple2020_September_Animation.gif",
     "tabs": [
         {
             "tabname": "Details",
@@ -129,11 +129,11 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.8"
+                    "title": "1.0.9"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>test for SileoDepictions.json",
+                    "markdown": "<ul>\n<li>fixing issues",
                     "useRawFormat": true
                 }
             ]
