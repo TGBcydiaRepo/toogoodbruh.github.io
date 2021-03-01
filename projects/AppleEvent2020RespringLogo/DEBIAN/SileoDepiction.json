@@ -1,5 +1,5 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "1.0.3",
     "class": "DepictionTabView",
     "tintColor": "#2cb1be",
     "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
@@ -13,7 +13,7 @@
                   "useBottomMargin": false,
                   "useBoldText": true,
                   "class": "DepictionSubheaderView",
-                  "title": "Apple Watch Update Respring Logo"
+                  "title": "Apple Event Respring Logo"
               },
                 {
                     "class": "DepictionSubheaderView",
@@ -23,14 +23,14 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<p>Animated Apple Watch update screen respring logo.</p>",
+                    "markdown": "<p>An animated respring logo that looks like the September 2020 Apple event waiting screen.</p>",
                     "useRawFormat": true
                 },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "text"
+                    "title": ""
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -39,18 +39,18 @@
                     "screenshots": [
                       {
                           "accessibilityText": "Screenshot",
-                          "url": "https://images.toogoodbruh.com/AppleWatchRespring-.gif",
-                          "fullSizeURL": "https://images.toogoodbruh.com/AppleWatchRespring-.gif"
+                          "url": "https://images.toogoodbruh.com/Apple2020_September_Animation.gif",
+                          "fullSizeURL": "https://images.toogoodbruh.com/Apple2020_September_Animation.gif"
                       },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://images.toogoodbruh.com/img1.jpg",
-                            "fullSizeURL": "https://images.toogoodbruh.com/img1.jpg"
+                            "url": "https://images.toogoodbruh.com/lightspinny.00@3x.png",
+                            "fullSizeURL": "https://images.toogoodbruh.com/lightspinny.00@3x.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://images.toogoodbruh.com/img2.jpg",
-                            "fullSizeURL": "https://images.toogoodbruh.com/img2.jpg"
+                            "url": "https://images.toogoodbruh.com/lightspinny.95@3x.png",
+                            "fullSizeURL": "https://images.toogoodbruh.com/lightspinny.95@3x.png"
                         }
                     ]
                 },
@@ -71,10 +71,10 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.0.0"
+                    "text": "1.0.3"
                 },
                 {
-                    "text": "01-16-2020",
+                    "text": "03-1-2021",
                     "class": "DepictionTableTextView",
                     "title": "Initial Release"
                 },
@@ -113,10 +113,10 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.0"
+                    "title": "1.0.3"
                 },
                 {
-                    "text": "01-16-2020",
+                    "text": "03-1-2021",
                     "class": "DepictionTableTextView",
                     "title": "Released"
                 },
@@ -129,7 +129,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.1"
+                    "title": "1.0.3"
                 },
                 {
                     "class": "DepictionMarkdownView",
