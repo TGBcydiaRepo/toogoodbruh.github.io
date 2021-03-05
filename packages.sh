@@ -10,4 +10,4 @@ dpkg-deb -bZgzip projects/CydiaIcons debs
 dpkg-deb -bZgzip projects/ShapeYourIcons debs
 dpkg-deb -bZgzip projects/AppleWatchRespringLogo debs
 dpkg-deb -bZgzip projects/ApplePreOrderAnim debs
-#dpkg-deb -bZgzip projects/AppleEvent2020RespringLogo debs
+dpkg-deb -bZgzip projects/AppleEvent2020RespringLogo debs
