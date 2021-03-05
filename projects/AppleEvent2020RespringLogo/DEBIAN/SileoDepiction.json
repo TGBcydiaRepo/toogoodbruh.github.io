@@ -1,5 +1,5 @@
 {
-    "minVersion": "1.0.11",
+    "minVersion": "1.0.0",
     "class": "DepictionTabView",
     "tintColor": "#2cb1be",
     "headerImage": "https://images.toogoodbruh.com/Apple2020_September_Animation.gif",
@@ -71,7 +71,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.0.3"
+                    "text": "1.0.0"
                 },
                 {
                     "text": "03-1-2021",
@@ -113,7 +113,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.8"
+                    "title": "1.0.0"
                 },
                 {
                     "text": "03-1-2021",
@@ -129,7 +129,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.10"
+                    "title": "1.0.0"
                 },
                 {
                     "class": "DepictionMarkdownView",
