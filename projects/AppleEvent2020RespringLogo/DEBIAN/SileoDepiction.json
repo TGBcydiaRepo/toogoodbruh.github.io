@@ -30,7 +30,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": ""
+                    "title": "Install the Snowboard respring logo extension"
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -49,8 +49,8 @@
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://images.toogoodbruh.com/lightspinny.95@3x.png",
-                            "fullSizeURL": "https://images.toogoodbruh.com/lightspinny.95@3x.png"
+                            "url": "https://images.toogoodbruh.com/lightspinny.95.png",
+                            "fullSizeURL": "https://images.toogoodbruh.com/lightspinny.95.png"
                         }
                     ]
                 },
@@ -133,7 +133,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>fixing issues",
+                    "markdown": "<ul>\n<li>Works properly.",
                     "useRawFormat": true
                 }
             ]
