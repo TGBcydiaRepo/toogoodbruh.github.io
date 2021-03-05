@@ -4,20 +4,19 @@ Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applepreorderanim_1.0.0_iphoneos-arm.deb
-Size: 10120742
-MD5sum: 9404def43d302532c5e684be43273c4d
-SHA1: b806005fee4ccd5e50a65b646e8d9a5f3ca36fa3
-SHA256: 7efadf1af57ec14b0c118b4c096af97152ab419de9806f61d5a2e470aaea7606
+Size: 10120696
+MD5sum: 8b15deb0998958a0d6f5e9fd0d01cb7e
+SHA1: 5b903d3159f0d5beed94b66d6b98ff08a6e4b0a8
+SHA256: bc701346848da9e1d4a21e9c9440b0166bbf726f57160603c7564fc957dbfc83
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that is the same as the apple on the waiting
  page before iPhone pre orders start.
   · Smooth animation
   · High resolution
-Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
+Tag: purpose::extension, compatible_min::ios10, compatible_max::ios14.5
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
 Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json&name=Apple%20Preorder%20Animation&section=TGB%20Respring%Logos&dev=Gabe%20Nydick
-Icon: file://Users/gnydick/Documents/toogoodbruh.github.io/projects/ApplePreOrderAnim/DEBIAN/icon.png
 Name: Apple Preorder Animation
 Sileodepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json
 
@@ -28,9 +27,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applesept2020eventrespringlogo_1.0.1_iphoneos-arm.deb
 Size: 15568596
-MD5sum: d7432e424f56f07d16d3df083ae2e952
-SHA1: 73351e366c5fc4c4e7ef9d0db1635935de99c1ea
-SHA256: 805b1b9bacf1136726ac7ab5d845b092f56482e60e2e330b3e577c9884ca5960
+MD5sum: 85fc25d6629e6e8156787d0000f4ccbc
+SHA1: 04aa9895dcb6833c0b71929ca72bb3345f73beb7
+SHA256: f5dcdc64d1686d8bef4197d6d6c5682756cbfee9fb0d2f28257067eaa3848b21
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like the September 2020 Apple event waiting screen.
@@ -48,15 +47,15 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applewatchrespringlogo_1.0.0_iphoneos-arm.deb
 Size: 4737082
-MD5sum: cd9a2e061cbe1e51307cf9426d2f31a4
-SHA1: 2fd16fd0f1b0348e5546bb43d766baa507a363eb
-SHA256: fb0f20f7f1b0fc898e8b5636a528789ba558b5f79a4b16e23255d1a59b8fef05
+MD5sum: 1fbc40e622615469a56aa819fce8dcdd
+SHA1: 1dc0bddb05d4ed2b598a8af4e1fefd4228cd90b4
+SHA256: 5b360843506724b3732b6a05975614b6447afd485159dc9d7dd28d2b58dcf1dc
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like an Apple Watch update screen.
   · Smooth animation
   · Takes up less space than previous versions
-Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.4
+Tag: purpose::extension, compatible_min::ios10, compatible_max::ios14.5
 Author: Gabe Nydick <martialartsapplemma@gmail.com>
 Depiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/AppleWatchRespringLogo/DEBIAN/SileoDepiction.json&name=Apple%20Watch%20Respring%20Logo&section=TGB%20Respring%Logos&dev=Gabe%20Nydick
 Name: Apple Watch Respring Logo
@@ -69,9 +68,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware( >=10.0)
 Filename: ./debs/com.toogoodbruh.shapeyouricons_1.0.1_iphoneos-arm.deb
 Size: 66526
-MD5sum: 020302466541cb6130cc2a636aa7c655
-SHA1: 8bf1894e920c2fc186cfbc54f4615b3488fd43b8
-SHA256: 03de53d90dcd403b73c62039e6420283322ac33ee07c4c4d3d949e515db86f65
+MD5sum: f6dad4b61e244c183295d80ec32ab09a
+SHA1: 1cb951ab641e3aec2a81a94afedf24fc141b0e0c
+SHA256: d099e3c97ba9951ab7ec99215fc0ea050486624667a622f432d3ad4dbf5f2fbe
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Shape Your Icons with Anemone!
@@ -88,9 +87,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=2.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.4.0_iphoneos-arm.deb
 Size: 32818
-MD5sum: e8469564a9f7c359548df9df170ade00
-SHA1: 0f98a66979fc2af932c591f80a4a9318b2530da9
-SHA256: 3a02184e9183b1428264532ff2ba52a305ada6d27515055305d945e71f1d573d
+MD5sum: f75014692bb6a72521c8f00d83d09332
+SHA1: b2e5c62ba0972e1ed6cd6d7c37dc546cb6085a8a
+SHA256: b38a0540d6bc56937d7b7abcf6ec47fc04f2392f850e4b4f54af1a36137b724c
 Section: TGB Themes
 Priority: required
 Homepage: https://repo.toogoodbruh.com

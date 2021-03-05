@@ -1,5 +1,5 @@
 {
-    "minVersion": "0.1",
+    "minVersion": "12.0",
     "class": "DepictionTabView",
     "tintColor": "#2cb1be",
     "headerImage": "https://images.toogoodbruh.com/app-covers-apple-outline.gif",
@@ -128,7 +128,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>test for SileoDepictions.json",
+                    "markdown": "<ul>\n<li>Works properly.",
                     "useRawFormat": true
                 }
             ]
