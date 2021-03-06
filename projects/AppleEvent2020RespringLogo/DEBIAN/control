@@ -1,6 +1,6 @@
 Package: com.toogoodbruh.applesept2020eventrespringlogo
 Name: Apple Event Respring Logo
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm
 Description:  An animated respring logo that looks like the September 2020 Apple event waiting screen.
   · Smooth animation
