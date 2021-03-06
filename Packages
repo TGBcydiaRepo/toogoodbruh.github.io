@@ -5,9 +5,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applepreorderanim_1.0.0_iphoneos-arm.deb
 Size: 10120696
-MD5sum: 7dbb617c819f6dd0686afd6caaabf813
-SHA1: 9935259f8176c7a839126e685ad4baf747411a9f
-SHA256: 224f1d2e89f1cca8df759eadb60e264c34b1ebf446d41534c7b2f2171635d1d2
+MD5sum: af24fd69929624bff3b15a1de293b0af
+SHA1: 93a8a716dc8fa7c7a63df21551da992d5e224542
+SHA256: 94ae807b4b76fc187e42243c3d41f79e45a3dc0829c45a77d12188c1dc90439d
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that is the same as the apple on the waiting
@@ -21,15 +21,15 @@ Name: Apple Preorder Animation
 Sileodepiction: https://sil.toogoodbruh.com/?json=http://repo.toogoodbruh.com/projects/ApplePreOrderAnim/DEBIAN/SileoDepiction.json
 
 Package: com.toogoodbruh.applesept2020eventrespringlogo
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
-Filename: ./debs/com.toogoodbruh.applesept2020eventrespringlogo_1.0.4_iphoneos-arm.deb
-Size: 16104096
-MD5sum: 61c4123294b7857bfb47d8878156ec8d
-SHA1: 2f0e3d1a9a45fdb1e43ce169e5581bfbe6952b09
-SHA256: 802f55323745d23d1e27937777198925800892f5fc41c10179341e9d077c36f6
+Filename: ./debs/com.toogoodbruh.applesept2020eventrespringlogo_1.0.5_iphoneos-arm.deb
+Size: 14795156
+MD5sum: f92af41a1506d181e3a611f02b0b3656
+SHA1: 26ee2fa2d8964bdd5b649da31a9f5094aa0e0f1e
+SHA256: 660183b2ac88fb59c002b75aa844dc49d36b9e9f20f7a9750ead20484c25b195
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like the September 2020 Apple event waiting screen.
@@ -47,9 +47,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware (>=10.0)
 Filename: ./debs/com.toogoodbruh.applewatchrespringlogo_1.0.0_iphoneos-arm.deb
 Size: 4737082
-MD5sum: 29a33e8d9ee0e2d3f9059f294a1d6ff1
-SHA1: fd56d05da76c78c0ce58ebdd5bc96d93d38b2521
-SHA256: 92603b7ba6861671f7dd87fc800c84ca391ec5c8067a13fa6273d3e1d3708864
+MD5sum: 50132f0738928e151cebf217387f4998
+SHA1: 8eee90a8d0601408c23cc930deb2187abc4d2d31
+SHA256: bbfb874903f6a1a2c72962602284ccd595c07104c53fe9161c69347bf03646d5
 Section: TGB Respring Logos
 Homepage: https://repo.toogoodbruh.com
 Description: An animated respring logo that looks like an Apple Watch update screen.
@@ -68,9 +68,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware( >=10.0)
 Filename: ./debs/com.toogoodbruh.shapeyouricons_1.0.1_iphoneos-arm.deb
 Size: 66526
-MD5sum: 49c733d0bbc8e5addd33c3261bcb2788
-SHA1: a626cae1eab643775a39c7ff26b5bda5385aca5f
-SHA256: 7fbe1833a932b85e77c57f1722a214efb8c56e5d68998e3b99ca7d8740b1c8fb
+MD5sum: 76750b68bf01c8e77135527aeb280077
+SHA1: 60f85506953362ff825c8eddcf11f0d276fbd9ae
+SHA256: ad45fcab1679762036e6cf16024a6a78a7c1b018cb0f5aa501887289ec0ae39c
 Section: TGB Themes
 Homepage: https://repo.toogoodbruh.com
 Description: Shape Your Icons with Anemone!
@@ -87,9 +87,9 @@ Maintainer: TooGoodBruh <martialartsapplemma@gmail.com>
 Depends: firmware(>=2.0)
 Filename: ./debs/com.toogoodbruh.toogoodbruhrepoicons_0.4.0_iphoneos-arm.deb
 Size: 32818
-MD5sum: 372ea9a1d8c8c8d3f34425254adfe089
-SHA1: 5fcea3096ff893a70e49b2b4e7f996eef5cf716e
-SHA256: 7e122a34b3145f01883e1437baf7f4b9e0890a701c002392452d0aba85f293e5
+MD5sum: 0feae7ce54f0b8d44d7b9855bdd4ff44
+SHA1: f33e5325b0b1a5cb25241f94f07f2c302c33749e
+SHA256: 23fdd6bcd6463406dd97668843b1894d82aca076c5d9fd20c0005748125f468b
 Section: TGB Themes
 Priority: required
 Homepage: https://repo.toogoodbruh.com

@@ -71,7 +71,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.0.4"
+                    "text": "1.0.5"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -134,7 +134,7 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.4"
+                    "title": "1.0.5"
                 },
                 {
                     "text": "03-6-2021",
