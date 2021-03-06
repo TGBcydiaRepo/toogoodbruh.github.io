@@ -71,7 +71,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.0.1"
+                    "text": "1.0.2"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Latest Release Date",
+                    "text": "03-01-2021"
                 },
                 {
                     "text": "03-1-2021",
@@ -129,7 +134,12 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "1.0.1"
+                    "title": "1.0.2"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<ul>\n<li>03-01-2021",
+                    "useRawFormat": true
                 },
                 {
                     "class": "DepictionMarkdownView",
