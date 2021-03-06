@@ -76,7 +76,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Latest Release Date",
-                    "text": "03-01-2021"
+                    "text": "03-06-2021"
                 },
                 {
                     "text": "03-1-2021",
@@ -137,9 +137,9 @@
                     "title": "1.0.2"
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "<ul>\n<li>03-01-2021",
-                    "useRawFormat": true
+                    "text": "03-6-2021",
+                    "class": "DepictionTableTextView",
+                    "title": "Updated"
                 },
                 {
                     "class": "DepictionMarkdownView",
