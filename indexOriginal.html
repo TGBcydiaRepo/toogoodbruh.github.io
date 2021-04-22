@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="refresh" content="0; url=https://sil.toogoodbruh.com/repo/?repo=https://repo.toogoodbruh.com" >
+  <title>Cydia Packages</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="js/json-renderer-1.0.0.js"></script>
+  <script>
+function fun() {
+    var url= document.getElementById("https://sil.toogoodbruh.com/?repo=https://repo.toogoodbruh.com/").value;
+    document.write("Redirecting to the url in 3 seconds...");
+    setTimeout(function(){window.location = url;}, 3000);
+}
+fun()
+</script>
+  <script type="text/javascript">
+  var content = [
+    {
+      'data-source' : 'repo-info.json',
+      'elements'    : {
+        'title'       : {'type':'text','source':'name'},
+        '.reponame'   : {'type':'text','source':'name'},
+        '#cydia-repo-url' : {'type':'custom','source':'repo-url'
+        , render : function(e,src) {
+          $(e).attr('href',"cydia://url/https://cydia.saurik.com/api/share#?source="+src);
+        } //render
+      }//#cydia-repo-url
+    }
+  },
+  {
+    'data-source' : 'pkg-list.json',
+    'elements'  : {
+      '#packages' : {'type':'custom','source':'packages',
+      render : function(e,src) {
+        $.each(src, function(idx,package) {
+          var pid = package.replace(/\./gi,'_');
+          var p = $("<li class='list-group-item'>");
+          var a = $("<a class='btn btn-link'>");
+          $(a).attr("id",pid);
+          $(a).attr("href","depictions/?p=" + package);
+          $(p).append(a);
+          $(e).append(p);
+          var pkg = [{
+            'data-source' : "depictions/"+package+"/package-info.json",
+            'elements'    : {}
+          }];
+          pkg[0]['elements']['#'+pid] = {'type':'text','source':'packagename'};
+          (new JSONRenderer({verbose:false,contentDefinition:pkg}))
+          .render();
+        });
+      } //render
+    } //#packages
+  } //containers
+} //content item
+];
+$(document).ready(function(){
+  var writer = new JSONRenderer({
+    verbose : false,
+    contentDefinition : content
+  });
+  writer.render();
+}) //ready
+</script>
+</head>
+<body>
+
+  <div class="container">
+    <h1><img src="tgblogo.png"> <span class="reponame"></span></h1>
+  </div>
+
+  <div class="container">
+    <div class="well">
+      <p><span class="text-primary"><b><span class="reponame"></span></span></b> is a Cydia repository template.</p>
+      <a id="cydia-repo-url" class="btn btn-sm btn-default" href="#">Add to Cydia</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h3 id="wells" class="page-header">Hosted Packages</h3>
+  </div>
+
+  <div class="container">
+    <div class="container">
+      <!--div class="panel panel-default">
+        <div class="panel-heading">TGB Respring Logo</div>
+        <div class="panel-body">
+          TGB custom respring logo.<br /><br />
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.simplifiedrespringlogotheme">More info</a>
+        </div>
+      </div-->
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Animated Apple Preorder logo </div>
+        <div class="panel-body">
+          Applied in Anemone or SnowBoard and will apply an animated apple logo seen on the waiting screen<br/>
+          before iPhone preorders go live.<br/><br/>
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.applepreanim">More Info</a>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">Apple Watch Respring Logo</div>
+        <div class="panel-body">
+          Applied in Anemone or SnowBoard and will change the shape of your icons on the homescreen.
+          More shapes/overlays will be added in the future.<br/><br/>
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.applewatchrespringlogo">More Info</a>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading">TGB Icon Pack</div>
+        <div class="panel-body">
+          Replaces the question mark icons with tgb section images.<br /><br />
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.toogoodbruhrepoicons">More info</a>
+        </div>
+      </div>
+
+      <!--div class="panel panel-default">
+        <div class="panel-heading">MontyHacks II Theme</div>
+        <div class="panel-body">
+          Theme made for MontyHacks II hack-a-thon 2018<br/><br/>
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.montyhacksiidep">More Info</a>
+        </div>
+      </div-->
+
+
+      <div class="panel panel-default">
+        <div class="panel-heading">ShapeYourIcons</div>
+        <div class="panel-body">
+          Applied in Anemone or SnowBoard and will change the shape of your icons on the homescreen.
+          More shapes/overlays will be added in the future.<br/><br/>
+          <a class="btn btn-xs btn-default" href="depictions/?p=com.toogoodbruh.shapeyouricons">More Info</a>
+        </div>
+      </div>
+    </div>
+  <!--/div-->
+
+</div>
+</ul>
+</div>
+
+</body>
+</html>
